@@ -1,0 +1,6658 @@
+-- ac151 definição
+
+-- Drop table
+
+-- DROP TABLE ac151;
+
+CREATE TABLE ac151 (
+	CODEV String(32767),
+	T1 String(32767),
+	EMPRE String(32767),
+	BANCO String(32767),
+	T2 String(32767),
+	T3 String(32767),
+	DATAR String(32767),
+	T4 String(32767)
+);
+
+
+-- acnab definição
+
+-- Drop table
+
+-- DROP TABLE acnab;
+
+CREATE TABLE acnab (
+	CODEV String(32767),
+	ARIPO String(32767),
+	ARQUI String(32767),
+	ARQTP String(32767),
+	COBRA String(32767),
+	ESPA1 String(32767),
+	EMPRE String(32767),
+	BANCO String(32767),
+	BCONO String(32767),
+	DGRAV String(32767),
+	SEQUE String(32767),
+	SUJEI String(32767),
+	DT229 String(32767),
+	T1 String(32767),
+	T2 String(32767),
+	T3 String(32767)
+);
+
+
+-- adsad definição
+
+-- Drop table
+
+-- DROP TABLE adsad;
+
+CREATE TABLE adsad (
+	CHAVE String(32767),
+	"LOCAL" String(32767),
+	PTIPO String(32767),
+	FANUM String(32767),
+	COMPL Boolean,
+	INCON Boolean,
+	APROV Boolean,
+	FACOM Boolean,
+	FA1PE Boolean,
+	CPCOD String(32767),
+	RCOD String(32767),
+	PECOD String(32767),
+	PECOE String(32767),
+	ITREE Boolean,
+	ITRES Boolean,
+	ITINF Boolean,
+	ICANC Boolean,
+	PESEP String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767),
+	ITDCO Boolean,
+	ITVU3 Double,
+	ITVUN Double,
+	ITCOR Double,
+	ITQUA Double,
+	ITQUO Double,
+	COMI1 Double,
+	DATAE Date,
+	IBICM Double,
+	IAICM Double,
+	IVICM Double,
+	IVSUB Double,
+	IBSUB Double,
+	IBIPI Double,
+	OSNUM String(32767),
+	CORNO String(32767),
+	BOBIN String(32767),
+	ITNOF Double,
+	ITOBS String(32767),
+	ITVLR Double,
+	IVIPI Double,
+	ITTOT Double,
+	COEFE Double,
+	ITQES Double,
+	ITQFT Double,
+	ITEUN String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	COACO String(32767),
+	COAQT Double,
+	DIBLQ Double,
+	DAORI Date,
+	DAENT Date,
+	PESOI Double,
+	SITRI String(32767),
+	CODCL String(32767),
+	USRES String(32767),
+	USDAT Date,
+	USHOR String(32767),
+	ITSEP Double,
+	COBOB String(32767),
+	RESER String(32767),
+	AUSUA String(32767),
+	ADATA Date,
+	AHORA String(32767),
+	QTCOR Double,
+	CETUN String(32767),
+	CEACO String(32767),
+	CTDAT Date,
+	TESTE String(32767),
+	TEST String(32767),
+	ITACR Double,
+	ITVU0 Double,
+	ITVU1 Double,
+	PECLI String(32767),
+	PEDAT Date,
+	PEOBD String(32767),
+	PEUSE String(32767),
+	PEUDT Date,
+	PEUHO String(32767),
+	KGLI Double,
+	KGBR Double
+);
+
+
+-- arexp definição
+
+-- Drop table
+
+-- DROP TABLE arexp;
+
+CREATE TABLE arexp (
+	TIPO String(32767),
+	S1 String(32767),
+	S2 String(32767),
+	S3 String(32767),
+	S4 String(32767),
+	S5 String(32767),
+	S6 String(32767),
+	S7 String(32767),
+	S8 String(32767),
+	S9 String(32767),
+	S10 String(32767),
+	S11 String(32767),
+	S12 String(32767),
+	S13 String(32767),
+	S14 String(32767),
+	S15 String(32767),
+	S16 String(32767),
+	S17 String(32767)
+);
+-- arqhelp definição
+
+-- Drop table
+
+-- DROP TABLE arqhelp;
+
+CREATE TABLE arqhelp (
+	CHAVE String(32767),
+	PTIPO String(32767),
+	FANUM String(32767),
+	COMPL Boolean,
+	INCON Boolean,
+	APROV Boolean,
+	FACOM Boolean,
+	FA1PE Boolean,
+	CPCOD String(32767),
+	RCOD String(32767),
+	PECOD String(32767),
+	PECOE String(32767),
+	ITREE Boolean,
+	ITRES Boolean,
+	ITINF Boolean,
+	ICANC Boolean,
+	PESEP String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767),
+	ITDCO Boolean,
+	ITVU3 Double,
+	ITVUN Double,
+	ITCOR Double,
+	ITQUA Double,
+	ITQUO Double,
+	COMI1 Double,
+	DATAE Date,
+	IBICM Double,
+	IAICM Double,
+	IVICM Double,
+	IVSUB Double,
+	IBSUB Double,
+	IBIPI Double,
+	OSNUM String(32767),
+	CORNO String(32767),
+	BOBIN String(32767),
+	ITNOF Double,
+	ITOBS String(32767),
+	ITVLR Double,
+	IVIPI Double,
+	ITTOT Double,
+	COEFE Double,
+	ITQES Double,
+	ITQFT Double,
+	ITEUN String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	COACO String(32767),
+	COAQT Double,
+	DAENT Date,
+	PESOI Double,
+	SITRI String(32767),
+	CODCL String(32767),
+	USRES String(32767),
+	USDAT Date,
+	USHOR String(32767),
+	ITSEP Double,
+	COBOB String(32767),
+	RESER String(32767),
+	AUSUA String(32767),
+	ADATA Date,
+	AHORA String(32767),
+	QTCOR Double,
+	CETUN String(32767),
+	CEACO String(32767),
+	CTDAT Date,
+	TESTE String(32767),
+	TEST String(32767),
+	ITACR Double,
+	ITVU0 Double,
+	ITVU1 Double,
+	PECLI String(32767),
+	PEDAT Date,
+	PEOBD String(32767),
+	PEUSE String(32767),
+	PEUDT Date,
+	PEUHO String(32767)
+);
+
+
+-- arqli3 definição
+
+-- Drop table
+
+-- DROP TABLE arqli3;
+
+CREATE TABLE arqli3 (
+	DATAE Date,
+	HORAE String(32767),
+	USERE String(32767)
+);
+
+
+-- arqtch definição
+
+-- Drop table
+
+-- DROP TABLE arqtch;
+
+CREATE TABLE arqtch (
+	FATNO String(32767),
+	FATOR String(32767),
+	MAOUF String(32767),
+	STAFP String(32767),
+	FIVEC Date,
+	FCOD String(32767),
+	FILIAL String(32767),
+	CHBAN String(32767),
+	CHNUM String(32767),
+	BANCOD String(32767),
+	RMODO String(32767),
+	REVAL Double,
+	CHVAL Double,
+	FILIQ Date,
+	TOTIT Double,
+	FIROB String(32767),
+	REMNO String(32767),
+	REMNA String(32767),
+	CHEMI String(32767),
+	CHDAT Date,
+	MOREC String(32767),
+	OPNUM String(32767),
+	ENTID String(32767),
+	DUNOM String(32767),
+	CHORD String(32767),
+	DUEND String(32767),
+	DFONE String(32767),
+	DMUNI String(32767),
+	DUF String(32767),
+	DCEP String(32767),
+	DIDEN String(32767),
+	DIES String(32767),
+	DCEND String(32767),
+	DCMUN String(32767),
+	DCUF String(32767),
+	DCCEP String(32767),
+	FAJUT Boolean,
+	TESTE String(32767),
+	ORIG String(32767)
+);
+
+
+-- arqx5 definição
+
+-- Drop table
+
+-- DROP TABLE arqx5;
+
+CREATE TABLE arqx5 (
+	CHTIP String(32767),
+	CHDAT Date,
+	CHVEN Date,
+	CHBAN String(32767),
+	CHNUM String(32767),
+	CHORD String(32767),
+	CHEMI String(32767),
+	CHVLR Double,
+	CVALA Double,
+	CHSTA String(32767),
+	CHSAA String(32767),
+	BANCOD String(32767),
+	NCHEQ String(32767),
+	NREME String(32767),
+	RETPO String(32767),
+	RETPA String(32767),
+	ORIGC String(32767),
+	REMNO String(32767),
+	DIDEN String(32767),
+	DUNOM String(32767),
+	DUEND String(32767),
+	DFONE String(32767),
+	DMUNI String(32767),
+	DUF String(32767),
+	DCEP String(32767),
+	DIES String(32767),
+	DCEND String(32767),
+	DCMUN String(32767),
+	DCUF String(32767),
+	DCCEP String(32767),
+	FAJUT Boolean,
+	ENTID String(32767),
+	DABAN Date
+);
+-- attiv definição
+
+-- Drop table
+
+-- DROP TABLE attiv;
+
+CREATE TABLE attiv (
+	FATNO String(32767),
+	ALUMI Boolean,
+	FACOD String(32767),
+	MFILI Boolean,
+	FATOR String(32767),
+	MAOUF String(32767),
+	STAFP String(32767),
+	FIVEO Date,
+	FIVEN Date,
+	FDATA Date,
+	FIFEC Date,
+	FILIQ Date,
+	DOUR String(32767),
+	MOREC String(32767),
+	MOCOB String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	ORD String(32767),
+	FIVJU Double,
+	FIPJU Double,
+	FIVAB Double,
+	FIPAB Double,
+	FIVLI Double,
+	FIVAL Double,
+	FITEL Double,
+	FIALU Double,
+	NCHEQ String(32767),
+	BANCOD String(32767),
+	QUAIT Double,
+	TOTIT Double,
+	TOTPE Double,
+	TOTCO Double,
+	JDESC String(32767),
+	FIOBS String(32767),
+	COPAG String(32767),
+	FOBJU String(32767),
+	FOBAB String(32767),
+	TCOD String(32767),
+	RCOD String(32767),
+	OPNUM String(32767),
+	DEVOL Boolean,
+	MDIAS Double,
+	EMDUP String(32767),
+	CBDES Double,
+	COMI1 Double,
+	COMIP Double,
+	FIVCO Double,
+	DENTR Boolean,
+	BROKE String(32767),
+	NCOBR String(32767),
+	VSUB Double
+);
+
+
+-- auxc1 definição
+
+-- Drop table
+
+-- DROP TABLE auxc1;
+
+CREATE TABLE auxc1 (
+	DATX Date,
+	DAFX Date,
+	DARX Date,
+	OSNUM String(32767),
+	RI1 Double,
+	CE1 Double,
+	RI2 Double,
+	CE2 Double,
+	QRI String(32767),
+	QCE String(32767)
+);
+
+
+-- auxce definição
+
+-- Drop table
+
+-- DROP TABLE auxce;
+
+CREATE TABLE auxce (
+	DATX Date,
+	DAFX Date,
+	DARX Date,
+	OSNUM String(32767),
+	RI1 Double,
+	CE1 Double,
+	RI2 Double,
+	CE2 Double,
+	QRI String(32767),
+	QCE String(32767)
+);
+
+
+-- auxch definição
+
+-- Drop table
+
+-- DROP TABLE auxch;
+
+CREATE TABLE auxch (
+	UNOME String(32767)
+);
+
+
+-- auxcu definição
+
+-- Drop table
+
+-- DROP TABLE auxcu;
+
+CREATE TABLE auxcu (
+	GR_PX String(32767),
+	GR_CO String(32767),
+	DESP Double,
+	RECE Double,
+	TIPO String(32767)
+);
+-- bades definição
+
+-- Drop table
+
+-- DROP TABLE bades;
+
+CREATE TABLE bades (
+	MECOD String(32767),
+	UMECI String(32767),
+	MEORI String(32767),
+	DENOM String(32767)
+);
+
+
+-- bakds definição
+
+-- Drop table
+
+-- DROP TABLE bakds;
+
+CREATE TABLE bakds (
+	UCOD String(32767),
+	UNOM String(32767),
+	USEN String(32767),
+	USET String(32767),
+	WTOTVI Double,
+	UMEN String(32767),
+	DESV Boolean,
+	DEVE Boolean,
+	UCOR String(32767)
+);
+
+
+-- bamin definição
+
+-- Drop table
+
+-- DROP TABLE bamin;
+
+CREATE TABLE bamin (
+	MESTA String(32767),
+	MECOD String(32767),
+	MEORI String(32767),
+	MEDES String(32767),
+	DENOM String(32767),
+	ORNOM String(32767),
+	MEDAT Date,
+	MEHOR String(32767),
+	MEASS String(32767),
+	LIDAT Date,
+	LIHOR String(32767)
+);
+
+
+-- baset definição
+
+-- Drop table
+
+-- DROP TABLE baset;
+
+CREATE TABLE baset (
+	LETRA String(32767),
+	SETOR String(32767),
+	SETOS String(32767),
+	SECOR String(32767),
+	COR String(32767)
+);
+
+
+-- bb2903 definição
+
+-- Drop table
+
+-- DROP TABLE bb2903;
+
+CREATE TABLE bb2903 (
+	BOBINA String(32767)
+);
+
+
+-- bitoa definição
+
+-- Drop table
+
+-- DROP TABLE bitoa;
+
+CREATE TABLE bitoa (
+	TEM Boolean,
+	IT_BI String(32767),
+	IT_BA String(32767),
+	IT_BN String(32767),
+	FASTP String(32767),
+	NEUTP String(32767),
+	BNOME String(32767),
+	BNOMX String(32767),
+	BNOMF String(32767),
+	BNOMN String(32767),
+	BITNU Double,
+	BVEIA Double,
+	TETIF String(32767),
+	TETIC String(32767),
+	TETIR String(32767),
+	TETIX String(32767)
+);
+
+
+-- bitol definição
+
+-- Drop table
+
+-- DROP TABLE bitol;
+
+CREATE TABLE bitol (
+	TEM Boolean,
+	IT_BI String(32767),
+	IT_BA String(32767),
+	IT_BN String(32767),
+	FASTP String(32767),
+	NEUTP String(32767),
+	BNOME String(32767),
+	BNOMX String(32767),
+	BNOMF String(32767),
+	BNOMN String(32767),
+	BITNU Double,
+	BVEIA Double,
+	TETIF String(32767),
+	TETIC String(32767),
+	TETIR String(32767),
+	TETIX String(32767)
+);
+
+
+-- bitot definição
+
+-- Drop table
+
+-- DROP TABLE bitot;
+
+CREATE TABLE bitot (
+	TEM Boolean,
+	IT_BI String(32767),
+	IT_BA String(32767),
+	IT_BN String(32767),
+	FASTP String(32767),
+	NEUTP String(32767),
+	BNOME String(32767),
+	BNOMX String(32767),
+	BNOMF String(32767),
+	BNOMN String(32767),
+	BITNU Double,
+	BVEIA Double,
+	TETIF String(32767),
+	TETIC String(32767),
+	TETIR String(32767),
+	TETIX String(32767)
+);
+
+
+-- bobin definição
+
+-- Drop table
+
+-- DROP TABLE bobin;
+
+CREATE TABLE bobin (
+	BOCOD String(32767),
+	BOTIP String(32767),
+	BOTAR Double,
+	IMPRE Boolean,
+	BOBOB String(32767)
+);
+
+
+-- bobina definição
+
+-- Drop table
+
+-- DROP TABLE bobina;
+
+CREATE TABLE bobina (
+	BOBINA String(32767)
+);
+
+
+-- bobinal definição
+
+-- Drop table
+
+-- DROP TABLE bobinal;
+
+CREATE TABLE bobinal (
+	BOBINA String(32767)
+);
+
+
+-- bobinas definição
+
+-- Drop table
+
+-- DROP TABLE bobinas;
+
+CREATE TABLE bobinas (
+	BOBINA Double
+);
+
+
+-- broip definição
+
+-- Drop table
+
+-- DROP TABLE broip;
+
+CREATE TABLE broip (
+	BROKE String(32767),
+	TIPO String(32767),
+	NFATU String(32767),
+	NPEDI String(32767),
+	PTIPO String(32767),
+	NLINH String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	TE1 String(32767),
+	IT_CR String(32767),
+	ITDESC String(32767),
+	PQUAN String(32767),
+	PEMBA String(32767),
+	VUNIT String(32767),
+	VTOTA String(32767),
+	PESOI String(32767),
+	VOLUI String(32767),
+	VAL Double
+);
+
+
+-- brope definição
+
+-- Drop table
+
+-- DROP TABLE brope;
+
+CREATE TABLE brope (
+	BROKE String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	TIPO String(32767),
+	NFATU String(32767),
+	NPEDI String(32767),
+	PTIPO String(32767),
+	PDATA String(32767),
+	FNOME String(32767),
+	FEND String(32767),
+	FCID String(32767),
+	FUF String(32767),
+	FCEP String(32767),
+	FCNPJ String(32767),
+	FIEST String(32767),
+	PFPJM String(32767),
+	CONFI String(32767),
+	VLRTO String(32767),
+	BRUTO String(32767),
+	LIQUI String(32767)
+);
+
+
+-- brore definição
+
+-- Drop table
+
+-- DROP TABLE brore;
+
+CREATE TABLE brore (
+	FATNO String(32767),
+	FATOR String(32767),
+	FIREC Double,
+	DAREC Date,
+	DAARQ Date
+);
+
+
+-- brorg definição
+
+-- Drop table
+
+-- DROP TABLE brorg;
+
+CREATE TABLE brorg (
+	BROKE String(32767),
+	NFATU String(32767),
+	PDATA Date,
+	PHORA String(32767),
+	QPEDI Double,
+	QITPE Double,
+	VAPED Double,
+	VAFAT Double,
+	QFATI Double,
+	QITFA Double,
+	FDATA Date,
+	FHORA String(32767),
+	VAREC Double
+);
+
+
+-- cacau definição
+
+-- Drop table
+
+-- DROP TABLE cacau;
+
+CREATE TABLE cacau (
+	NCCOD String(32767),
+	CAUNO String(32767)
+);
+
+
+-- caddol definição
+
+-- Drop table
+
+-- DROP TABLE caddol;
+
+CREATE TABLE caddol (
+	DTADOL Date,
+	VLRDOL Double,
+	LME Double,
+	CDI Double,
+	CDA Double,
+	CDM Double
+);
+
+
+-- cadnc definição
+
+-- Drop table
+
+-- DROP TABLE cadnc;
+
+CREATE TABLE cadnc (
+	NCCOD String(32767),
+	NCTIP String(32767),
+	NACO1 String(32767),
+	NACO2 String(32767)
+);
+
+
+-- canfe definição
+
+-- Drop table
+
+-- DROP TABLE canfe;
+
+CREATE TABLE canfe (
+	SERIE String(32767),
+	FANUM String(32767),
+	FADAT Date,
+	CHAVE String(32767),
+	XML String(32767),
+	SITUACAO String(32767),
+	ENVIADA String(32767),
+	DANFE String(32767),
+	IDLOTE String(32767),
+	AUTO String(32767),
+	RECEBIDA String(32767),
+	PROTOCOLO String(32767)
+);
+
+
+-- causa definição
+
+-- Drop table
+
+-- DROP TABLE causa;
+
+CREATE TABLE causa (
+	CAUNO String(32767),
+	CAUS1 String(32767),
+	CAUS2 String(32767),
+	CAUS3 String(32767),
+	CAUS4 String(32767),
+	CMAOP String(32767),
+	CACCO Boolean
+);
+
+
+-- cddes definição
+
+-- Drop table
+
+-- DROP TABLE cddes;
+
+CREATE TABLE cddes (
+	NCDAT Date,
+	CFASE String(32767),
+	NFASE String(32767),
+	NCHOR String(32767),
+	NCORI String(32767),
+	NCTIP String(32767),
+	NCUSE String(32767),
+	NCNUM String(32767),
+	NCSTA String(32767),
+	NCCOD String(32767),
+	ELINK Boolean,
+	LBNNC String(32767),
+	OSNUM String(32767),
+	OSNU2 String(32767),
+	BONUM String(32767),
+	BONU2 String(32767),
+	NACO1 String(32767),
+	NACO2 String(32767),
+	NADAT Date,
+	NAHOR String(32767),
+	NAUSE String(32767),
+	CMAOP String(32767),
+	COMAQ String(32767),
+	COPER String(32767),
+	CACOD String(32767),
+	CAUS1 String(32767),
+	CAUS2 String(32767),
+	CAUS3 String(32767),
+	CAUS4 String(32767),
+	CAUS5 String(32767),
+	CADAT Date,
+	CAHOR String(32767),
+	CAUSE String(32767),
+	DICOD String(32767),
+	DIDES String(32767),
+	DISP1 String(32767),
+	DISP2 String(32767),
+	DIDAT Date,
+	DIHOR String(32767),
+	DIUSE String(32767),
+	OBSA1 String(32767),
+	OBSA2 String(32767),
+	OBSA3 String(32767),
+	OBSA4 String(32767),
+	OBSA5 String(32767),
+	OBSA6 String(32767),
+	OBSA7 String(32767),
+	OBSA8 String(32767),
+	OBSA9 String(32767),
+	PRDES String(32767),
+	PRCOR String(32767),
+	PX String(32767),
+	CO String(32767),
+	SX String(32767),
+	CAU_O String(32767),
+	CAU_M String(32767),
+	CAU_F String(32767),
+	CNUSE String(32767),
+	CNDAT Date,
+	CNHOR String(32767),
+	JDESC String(32767),
+	DIFEZ String(32767),
+	DAFEZ Date,
+	HOFEZ String(32767)
+);
+
+
+-- cdexp definição
+
+-- Drop table
+
+-- DROP TABLE cdexp;
+
+CREATE TABLE cdexp (
+	MAOUF String(32767),
+	CATIP String(32767),
+	CGNUM String(32767),
+	CGCOD String(32767),
+	CGEMI String(32767),
+	CGDATA Date,
+	GERADA String(32767),
+	FIMP Boolean,
+	TRACOD String(32767),
+	CARMOT String(32767),
+	CARDES String(32767),
+	PRSAD Date,
+	PRSAH String(32767),
+	FRETE Double,
+	FREPA Double,
+	FRETP Double,
+	FRETV Double,
+	FREMI Double,
+	VALOR Double,
+	FKGLI Double,
+	FKGBR Double,
+	FKGMX Double,
+	QUAIT Double,
+	RESPO String(32767)
+);
+
+
+-- cdmcn definição
+
+-- Drop table
+
+-- DROP TABLE cdmcn;
+
+CREATE TABLE cdmcn (
+	CLAFI String(32767),
+	CLADE String(32767)
+);
+
+
+-- cdncm definição
+
+-- Drop table
+
+-- DROP TABLE cdncm;
+
+CREATE TABLE cdncm (
+	CDNCM String(32767),
+	DENCM String(32767)
+);
+
+
+-- cdnnc definição
+
+-- Drop table
+
+-- DROP TABLE cdnnc;
+
+CREATE TABLE cdnnc (
+	NCDAT Date,
+	CFASE String(32767),
+	NFASE String(32767),
+	NCHOR String(32767),
+	NCORI String(32767),
+	NCTIP String(32767),
+	NCUSE String(32767),
+	NCNUM String(32767),
+	NCSTA String(32767),
+	NCCOD String(32767),
+	ELINK Boolean,
+	LBNNC String(32767),
+	OSNUM String(32767),
+	OSNU2 String(32767),
+	BONUM String(32767),
+	BONU2 String(32767),
+	NACO1 String(32767),
+	NACO2 String(32767),
+	NADAT Date,
+	NAHOR String(32767),
+	NAUSE String(32767),
+	CMAOP String(32767),
+	COMAQ String(32767),
+	COPER String(32767),
+	CACOD String(32767),
+	CAUS1 String(32767),
+	CAUS2 String(32767),
+	CAUS3 String(32767),
+	CAUS4 String(32767),
+	CAUS5 String(32767),
+	CADAT Date,
+	CAHOR String(32767),
+	CAUSE String(32767),
+	DICOD String(32767),
+	DIDES String(32767),
+	DISP1 String(32767),
+	DISP2 String(32767),
+	DIDAT Date,
+	DIHOR String(32767),
+	DIUSE String(32767),
+	OBSA1 String(32767),
+	OBSA2 String(32767),
+	OBSA3 String(32767),
+	OBSA4 String(32767),
+	OBSA5 String(32767),
+	OBSA6 String(32767),
+	OBSA7 String(32767),
+	OBSA8 String(32767),
+	OBSA9 String(32767),
+	PRDES String(32767),
+	PRCOR String(32767),
+	PX String(32767),
+	CO String(32767),
+	SX String(32767),
+	CAU_O String(32767),
+	CAU_M String(32767),
+	CAU_F String(32767),
+	CNUSE String(32767),
+	CNDAT Date,
+	CNHOR String(32767),
+	JDESC String(32767),
+	DIFEZ String(32767),
+	DAFEZ Date,
+	HOFEZ String(32767)
+);
+
+
+-- cdoco definição
+
+-- Drop table
+
+-- DROP TABLE cdoco;
+
+CREATE TABLE cdoco (
+	EVERB Boolean,
+	APROV Boolean,
+	OCUSU String(32767),
+	OCHOR String(32767),
+	OCDAT Date,
+	OCNO String(32767),
+	OCNOI String(32767),
+	CTTR Boolean,
+	CTNO String(32767),
+	CTNI String(32767),
+	OCDATA Date,
+	FCOD String(32767),
+	FILIAL String(32767),
+	EMITIDA Boolean,
+	COMPLET Boolean,
+	LIQUIDA Boolean,
+	CPCOD String(32767),
+	OCVLR Double,
+	TOTIT Double,
+	QUAIT Double,
+	LINHAS Double,
+	OCDE1 Double,
+	OCDE2 Double,
+	OCDE3 Double,
+	OCDE4 Double,
+	OCDET Double,
+	OCCUF Double,
+	OCVEND String(32767),
+	OCEMBA Double,
+	OCFRET Double,
+	OCTFRE String(32767),
+	OCNFRE String(32767),
+	OCCONF String(32767),
+	OCCOND Date,
+	OCPENT Double,
+	OCLENT String(32767),
+	OCTRAN String(32767),
+	OCOBS String(32767),
+	GERADA String(32767),
+	CLASSE String(32767),
+	JCOD String(32767),
+	VBUSU String(32767),
+	VBHOR String(32767),
+	VBDAT Date,
+	VBOB1 String(32767),
+	VBOB2 String(32767),
+	VBOB3 String(32767),
+	VBOB4 String(32767)
+);
+
+
+-- cdreoc definição
+
+-- Drop table
+
+-- DROP TABLE cdreoc;
+
+CREATE TABLE cdreoc (
+	STA String(32767),
+	PEND Boolean,
+	OCNO String(32767),
+	OCNOI String(32767),
+	OCDATA Date,
+	FCOD String(32767),
+	FILIAL String(32767),
+	EMITIDA Boolean,
+	COMPLET Boolean,
+	LIQUIDA Boolean,
+	DFNO String(32767),
+	DFDAT Date,
+	CPCOD String(32767),
+	OCVLR Double,
+	TOTIT Double,
+	QUAIT Double,
+	LINHAS Double,
+	OCDE1 Double,
+	OCDE2 Double,
+	OCDE3 Double,
+	OCDE4 Double,
+	OCDET Double,
+	OCCUF Double,
+	OCVEND String(32767),
+	OCEMBA Double,
+	OCFRET Double,
+	OCTFRE String(32767),
+	OCNFRE String(32767),
+	OCCONF String(32767),
+	OCCOND Date,
+	OCPENT Double,
+	OCLENT String(32767),
+	OCTRAN String(32767),
+	OCOBS String(32767)
+);
+
+
+-- cemba definição
+
+-- Drop table
+
+-- DROP TABLE cemba;
+
+CREATE TABLE cemba (
+	OSNUM String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	QPROD Double,
+	PDATA Date,
+	PHINI String(32767),
+	PHFIN String(32767),
+	OPCOD String(32767),
+	QMPRO Double,
+	QMPAR Double,
+	QPARA Double,
+	PHPAI String(32767),
+	PHPAF String(32767),
+	PACOD String(32767),
+	MAQUI String(32767),
+	MINIT String(32767),
+	MAINI Double,
+	MAFIN Double,
+	OPERA String(32767)
+);
+
+
+-- cemrp definição
+
+-- Drop table
+
+-- DROP TABLE cemrp;
+
+CREATE TABLE cemrp (
+	OSNUM String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	QPROD Double,
+	PDATA Date,
+	PHINI String(32767),
+	PHFIN String(32767),
+	OPCOD String(32767),
+	QMPRO Double,
+	QMPAR Double,
+	QPARA Double,
+	PHPAI String(32767),
+	PHPAF String(32767),
+	PACOD String(32767),
+	MAQUI String(32767),
+	MINIT String(32767),
+	MAINI Double,
+	MAFIN Double,
+	OPERA String(32767)
+);
+
+
+-- chav2 definição
+
+-- Drop table
+
+-- DROP TABLE chav2;
+
+CREATE TABLE chav2 (
+	CHAVE String(32767),
+	ICMS String(32767),
+	NNF String(32767),
+	SERIE String(32767),
+	DATANF Date,
+	CODFIS String(32767),
+	CODCON String(32767),
+	LFUF String(32767),
+	LFOBS String(32767),
+	DESTIN String(32767),
+	DESTIS String(32767),
+	MATRIC Double,
+	CANCELA Boolean,
+	TOTNF Double,
+	BASICMS Double,
+	ALIICMS Double,
+	BASISEN Double,
+	VLRICMS Double,
+	BASOUTS Double,
+	SFOLHA Double,
+	BASIPI Double,
+	ALIIPI Double,
+	VLRIPI Double,
+	BASISPI Double,
+	BASOUPI Double,
+	LFCGC String(32767),
+	LFIES String(32767),
+	CLFOR String(32767),
+	CTBEXP Boolean
+);
+
+
+-- chrem definição
+
+-- Drop table
+
+-- DROP TABLE chrem;
+
+CREATE TABLE chrem (
+	SERIE String(32767),
+	NREME String(32767),
+	DREME Date,
+	RETPO String(32767),
+	BANCO String(32767),
+	QCHEQ Double,
+	CHVAL Double,
+	FORN String(32767)
+);
+
+
+-- cl2 definição
+
+-- Drop table
+
+-- DROP TABLE cl2;
+
+CREATE TABLE cl2 (
+	NEGP0 Double,
+	NEGP1 Double,
+	NEGPO Double,
+	NEGOC String(32767),
+	PUBLI String(32767),
+	CTIPO String(32767),
+	ESTAL String(32767),
+	INAT Boolean,
+	COMPL Boolean,
+	ATRASO Boolean,
+	TACOD String(32767),
+	FILIAL String(32767),
+	FILIB String(32767),
+	FCOD String(32767),
+	FNOME String(32767),
+	FEND String(32767),
+	FBAIRRO String(32767),
+	FCID String(32767),
+	FUF String(32767),
+	FCEP String(32767),
+	FTEL1 String(32767),
+	FTEL2 String(32767),
+	FCGC String(32767),
+	CHAVE String(32767),
+	FCONT String(32767),
+	FTEX String(32767),
+	FIEST String(32767),
+	FOBS String(32767),
+	FICM Double,
+	FCPF String(32767),
+	FCPO String(32767),
+	FFAX String(32767),
+	FAPELIDO String(32767),
+	FOIMU String(32767),
+	FCCO String(32767),
+	RAMO String(32767),
+	PRACA String(32767),
+	LIMCREDITO Double,
+	CEND String(32767),
+	CBAIRRO String(32767),
+	CMUN String(32767),
+	CUF String(32767),
+	CCEP String(32767),
+	COBS String(32767),
+	RCOD String(32767),
+	OPNUM String(32767),
+	EEND String(32767),
+	EBAIRRO String(32767),
+	EMUN String(32767),
+	EUF String(32767),
+	CONS String(32767),
+	COSFIN Boolean,
+	ALINT Double,
+	UCONT Date,
+	CTTIP String(32767),
+	CCONT String(32767),
+	DEPTO String(32767),
+	ETMAD Boolean,
+	ETREP Boolean,
+	BROKE String(32767),
+	BROKC String(32767),
+	MANAU Boolean,
+	SUFRA String(32767),
+	ICM18 Boolean,
+	CTBEXP Boolean,
+	RESER Double,
+	QITRE Double,
+	PESOR Double,
+	RESPO String(32767),
+	PENDE String(32767),
+	KGRES Double,
+	PORES Double,
+	ORGPU String(32767),
+	DIAPE Double,
+	CMUNI String(32767),
+	CTBIMP Boolean
+);
+
+
+-- clafi definição
+
+-- Drop table
+
+-- DROP TABLE clafi;
+
+CREATE TABLE clafi (
+	FACOD String(32767),
+	SERIE String(32767),
+	CLAFL String(32767),
+	CLAFI String(32767)
+);
+
+
+-- clcgi definição
+
+-- Drop table
+
+-- DROP TABLE clcgi;
+
+CREATE TABLE clcgi (
+	BRARE String(32767),
+	RESP2 String(32767),
+	TACOD String(32767),
+	RESPO String(32767),
+	ATIVO Boolean,
+	ELINK Boolean,
+	RCOD String(32767),
+	RNOME String(32767),
+	REND String(32767),
+	RNOMR String(32767),
+	RMUN String(32767),
+	RUF String(32767),
+	RCEP String(32767),
+	RTEL1 String(32767),
+	RTEL2 String(32767),
+	RFAX String(32767),
+	REMAIL String(32767),
+	ROBS String(32767),
+	RAREA String(32767),
+	RCPF String(32767),
+	RRG String(32767),
+	RNASC Date,
+	REMPR String(32767),
+	RNREG String(32767),
+	RCGC String(32767),
+	RIEST String(32767),
+	RIMUN String(32767),
+	FCOD String(32767)
+);
+
+
+-- clcont definição
+
+-- Drop table
+
+-- DROP TABLE clcont;
+
+CREATE TABLE clcont (
+	FCOD String(32767),
+	FILIAL String(32767),
+	UNOME String(32767),
+	CDATA Date,
+	CHORA String(32767),
+	CCONT String(32767),
+	CVORC Double,
+	CVPED Double,
+	CVFAT Double,
+	CTOB1 String(32767),
+	CTOB2 String(32767),
+	CTTIP String(32767)
+);
+
+
+-- cltip definição
+
+-- Drop table
+
+-- DROP TABLE cltip;
+
+CREATE TABLE cltip (
+	CTIPO String(32767),
+	CDESC String(32767)
+);
+
+
+-- cmdef definição
+
+-- Drop table
+
+-- DROP TABLE cmdef;
+
+CREATE TABLE cmdef (
+	DFCOD String(32767),
+	DFDES String(32767)
+);
+
+
+-- cobms definição
+
+-- Drop table
+
+-- DROP TABLE cobms;
+
+CREATE TABLE cobms (
+	BOBINA String(32767)
+);
+
+
+-- codean definição
+
+-- Drop table
+
+-- DROP TABLE codean;
+
+CREATE TABLE codean (
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	ITDESC String(32767),
+	ITDEC1 String(32767),
+	EAN String(32767),
+	EAN13 String(32767),
+	DIG13 String(32767)
+);
+
+
+-- codff definição
+
+-- Drop table
+
+-- DROP TABLE codff;
+
+CREATE TABLE codff (
+	CODFIS String(32767),
+	COD599 String(32767),
+	NATUREZA String(32767),
+	SERIE String(32767),
+	FLACPG Boolean,
+	OPER String(32767),
+	FLAOCO Boolean,
+	FLAEST Boolean,
+	FLALIF Boolean,
+	FLAICM Boolean,
+	FLAIPI Boolean,
+	FLACTB Boolean,
+	FLAPCO Boolean,
+	FLAFAT Boolean,
+	FLADUP Boolean,
+	FLAISS Boolean,
+	FLAFRE Boolean,
+	FLAFOR Boolean,
+	OBS String(32767),
+	OBS1 String(32767),
+	OBS2 String(32767),
+	OBS3 String(32767),
+	OBS4 String(32767),
+	OBS5 String(32767),
+	OBS6 String(32767),
+	OBS7 String(32767),
+	OBS8 String(32767),
+	OBS9 String(32767)
+);
+
+
+-- codnf definição
+
+-- Drop table
+
+-- DROP TABLE codnf;
+
+CREATE TABLE codnf (
+	CODFIS String(32767),
+	NATUREZA String(32767),
+	SERIE String(32767),
+	FLACPG Boolean,
+	OPER String(32767),
+	FLAOCO Boolean,
+	FLAEST Boolean,
+	FLALIF Boolean,
+	FLAICM Boolean,
+	FLAIPI Boolean,
+	FLACTB Boolean,
+	FLAPCO Boolean,
+	FLAFAT Boolean,
+	FLADUP Boolean,
+	FLAISS Boolean,
+	FLAFRE Boolean,
+	FLAFOR Boolean,
+	OBS String(32767),
+	OBS1 String(32767),
+	OBS2 String(32767),
+	OBS3 String(32767),
+	OBS4 String(32767)
+);
+
+
+-- codnn definição
+
+-- Drop table
+
+-- DROP TABLE codnn;
+
+CREATE TABLE codnn (
+	CODFIS String(32767),
+	COD599 String(32767),
+	NATUREZA String(32767),
+	SERIE String(32767),
+	FLACPG Boolean,
+	OPER String(32767),
+	FLAOCO Boolean,
+	FLAEST Boolean,
+	FLALIF Boolean,
+	FLAICM Boolean,
+	FLAIPI Boolean,
+	FLACTB Boolean,
+	FLAPCO Boolean,
+	FLAFAT Boolean,
+	FLADUP Boolean,
+	FLAISS Boolean,
+	FLAFRE Boolean,
+	FLAFOR Boolean,
+	OBS String(32767),
+	OBS1 String(32767),
+	OBS2 String(32767),
+	OBS3 String(32767),
+	OBS4 String(32767),
+	OBS5 String(32767),
+	OBS6 String(32767),
+	OBS7 String(32767),
+	OBS8 String(32767),
+	OBS9 String(32767)
+);
+
+
+-- cofor definição
+
+-- Drop table
+
+-- DROP TABLE cofor;
+
+CREATE TABLE cofor (
+	NCOT String(32767),
+	CTNO String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	CPCOD String(32767),
+	TOTIT Double,
+	QUAIT Double,
+	ITCUF Double,
+	OCCUF Double,
+	OCVEND String(32767),
+	OCEMBA Double,
+	OCFRET Double,
+	OCTFRE String(32767),
+	OCNFRE String(32767),
+	OCCONF String(32767),
+	OCCOND Date,
+	OCPENT Double,
+	OCLENT String(32767),
+	OCTRAN String(32767),
+	OCOBS String(32767),
+	GERADA String(32767)
+);
+
+
+-- cofot definição
+
+-- Drop table
+
+-- DROP TABLE cofot;
+
+CREATE TABLE cofot (
+	NCOT String(32767),
+	CTNO String(32767),
+	CTNI String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	CPCOD String(32767),
+	TOTIT Double,
+	QUAIT Double,
+	ITCUF Double,
+	OCCUF Double,
+	OCVEND String(32767),
+	OCEMBA Double,
+	OCFRET Double,
+	OCTFRE String(32767),
+	OCNFRE String(32767),
+	OCCONF String(32767),
+	OCCOND Date,
+	OCPENT Double,
+	OCLENT String(32767),
+	OCTRAN String(32767),
+	OCOBS String(32767),
+	GERADA String(32767),
+	SAIDA Date,
+	SAIHO String(32767),
+	CHEGA Date
+);
+
+
+-- coman definição
+
+-- Drop table
+
+-- DROP TABLE coman;
+
+CREATE TABLE coman (
+	TMOTI String(32767),
+	BANCO String(32767),
+	COCOD String(32767),
+	CODES String(32767)
+);
+
+
+-- comaq definição
+
+-- Drop table
+
+-- DROP TABLE comaq;
+
+CREATE TABLE comaq (
+	PI_PX String(32767),
+	PI_CO String(32767),
+	MAUSE String(32767),
+	MAHOR String(32767),
+	MADAT Date,
+	MACOD String(32767),
+	MAQNO String(32767),
+	MPQUA Double,
+	FACOD String(32767),
+	PVELO Double,
+	PTEMP Double,
+	PTEPR Double,
+	FTA01 String(32767),
+	FTA02 String(32767),
+	FTA03 String(32767),
+	FTA04 String(32767),
+	FTA05 String(32767),
+	FTA06 String(32767),
+	FTA07 String(32767),
+	FTA08 String(32767),
+	FTA09 String(32767),
+	FTA10 String(32767),
+	FTA11 String(32767),
+	FTA12 String(32767),
+	FTA13 String(32767),
+	FTA14 String(32767),
+	FTA15 String(32767),
+	FTA16 String(32767),
+	FTB01 String(32767),
+	FTB02 String(32767),
+	FTB03 String(32767),
+	FTB04 String(32767),
+	FTB05 String(32767),
+	FTB06 String(32767),
+	FTB07 String(32767),
+	FTB08 String(32767),
+	FTB09 String(32767),
+	FTB10 String(32767),
+	FTB11 String(32767),
+	FTB12 String(32767),
+	FTB13 String(32767),
+	FTB14 String(32767),
+	FTB15 String(32767),
+	FTB16 String(32767),
+	FTB17 String(32767),
+	FTB18 String(32767),
+	MQOB1 String(32767),
+	MQOB2 String(32767),
+	MQOB3 String(32767),
+	MQOB4 String(32767),
+	MQOB5 String(32767)
+);
+
+
+-- comcus definição
+
+-- Drop table
+
+-- DROP TABLE comcus;
+
+CREATE TABLE comcus (
+	OCNO String(32767),
+	MAOUF String(32767),
+	CDATA Date,
+	OBCOD String(32767),
+	OBCTT String(32767),
+	GR_PX String(32767),
+	GR_CO String(32767),
+	CUVLR Double,
+	FCOD String(32767),
+	FILIAL String(32767),
+	DOUR String(32767),
+	STAFP String(32767)
+);
+
+
+-- comgcm definição
+
+-- Drop table
+
+-- DROP TABLE comgcm;
+
+CREATE TABLE comgcm (
+	OCNO String(32767),
+	MAOUF String(32767),
+	CDATA Date,
+	OBCOD String(32767),
+	OBCTT String(32767),
+	GR_PX String(32767),
+	GR_CO String(32767),
+	CUVLR Double,
+	FCOD String(32767),
+	FILIAL String(32767),
+	DOUR String(32767),
+	STAFP String(32767)
+);
+
+
+-- comit definição
+
+-- Drop table
+
+-- DROP TABLE comit;
+
+CREATE TABLE comit (
+	SOLNO String(32767),
+	SOLNI String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	GR_PX String(32767),
+	GR_CO String(32767),
+	OBCOD String(32767),
+	OBCTT String(32767),
+	DESC1 String(32767),
+	DESC2 String(32767),
+	ITUNE String(32767),
+	ITQUA Double,
+	DAUSO Date
+);
+
+
+-- compo definição
+
+-- Drop table
+
+-- DROP TABLE compo;
+
+CREATE TABLE compo (
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	MP_PX String(32767),
+	MP_CO String(32767),
+	MP_SX String(32767),
+	MPTSX String(32767),
+	MPQUA Double,
+	MPUNI String(32767),
+	MPESO Double,
+	MPQRE String(32767),
+	MPUSE String(32767),
+	MPHOR String(32767),
+	MPDAT Date
+);
+
+
+-- compp definição
+
+-- Drop table
+
+-- DROP TABLE compp;
+
+CREATE TABLE compp (
+	ORDEM String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	MPQUA Double,
+	MPUNI String(32767),
+	MPESO Double,
+	MPQRE String(32767),
+	CRECO Boolean,
+	CFASE String(32767)
+);
+
+
+-- comsol definição
+
+-- Drop table
+
+-- DROP TABLE comsol;
+
+CREATE TABLE comsol (
+	MAOUF String(32767),
+	SERIE String(32767),
+	SOSET String(32767),
+	SOLNO String(32767),
+	SOLST String(32767),
+	SOLDA Date,
+	SOLHO String(32767),
+	SOLUS String(32767),
+	SOLDE String(32767),
+	SOLM1 String(32767),
+	SOLM2 String(32767),
+	SOLEN String(32767)
+);
+
+
+-- conderr definição
+
+-- Drop table
+
+-- DROP TABLE conderr;
+
+CREATE TABLE conderr (
+	CPCOD String(32767),
+	CPDESC String(32767),
+	CPPRA1 Double,
+	CPPAG1 Double,
+	CPPRA2 Double,
+	CPPAG2 Double,
+	CPPRA3 Double,
+	CPPAG3 Double,
+	CPPRA4 Double,
+	CPPAG4 Double
+);
+
+
+-- condpag definição
+
+-- Drop table
+
+-- DROP TABLE condpag;
+
+CREATE TABLE condpag (
+	CPCOD String(32767),
+	CPDESC String(32767),
+	CPPRA1 Double,
+	CPPAG1 Double,
+	CPPRA2 Double,
+	CPPAG2 Double,
+	CPPRA3 Double,
+	CPPAG3 Double,
+	CPPRA4 Double,
+	CPPAG4 Double,
+	CPPRA5 Double,
+	CPPAG5 Double,
+	CPPRA6 Double,
+	CPPAG6 Double,
+	CPPRA7 Double,
+	CPPAG7 Double,
+	CPPRA8 Double,
+	CPPAG8 Double,
+	CPPRA9 Double,
+	CPPAG9 Double,
+	REPRE Boolean
+);
+
+
+-- condpg definição
+
+-- Drop table
+
+-- DROP TABLE condpg;
+
+CREATE TABLE condpg (
+	CPCOD String(32767),
+	CPDESC String(32767),
+	CPPRA1 Double,
+	CPPAG1 Double,
+	CPPRA2 Double,
+	CPPAG2 Double,
+	CPPRA3 Double,
+	CPPAG3 Double,
+	CPPRA4 Double,
+	CPPAG4 Double,
+	CPPRA5 Double,
+	CPPAG5 Double,
+	CPPRA6 Double,
+	CPPAG6 Double,
+	CPPRA7 Double,
+	CPPAG7 Double,
+	CPPRA8 Double,
+	CPPAG8 Double,
+	CPPRA9 Double,
+	CPPAG9 Double,
+	REPRE Boolean
+);
+
+
+-- conhec definição
+
+-- Drop table
+
+-- DROP TABLE conhec;
+
+CREATE TABLE conhec (
+	FACOD String(32767),
+	CTNUM String(32767),
+	FDATA Date,
+	FCREM String(32767),
+	FCDES String(32767),
+	FCFAT String(32767),
+	FCFOP String(32767),
+	TPFRE String(32767),
+	VLRNF Double,
+	NATCA String(32767),
+	FANUM String(32767),
+	KGBR Double,
+	KGLI Double,
+	NFQUA Double,
+	FPESO Double,
+	TARIF Double,
+	NFESP String(32767),
+	FTVLR Double,
+	DESCT Double,
+	ADEME Double,
+	VPEDA Double,
+	COLET String(32767),
+	ENTRE String(32767),
+	FBICM Double,
+	FAICM Double,
+	FVICM Double,
+	FTTOT Double,
+	OBS String(32767),
+	FMOTO Double,
+	RECB Double,
+	IR Double,
+	FALTA Double,
+	INSS Double,
+	SEG String(32767),
+	PCHEG Double,
+	SUBTO Double,
+	SEST Double,
+	NAPOL Double,
+	TOLE Double,
+	ADIAN Double,
+	SEGUR Double,
+	SALDO Double,
+	VLRSE Double,
+	SERIE String(32767),
+	FILIAL String(32767),
+	NATOP String(32767),
+	FCOD String(32767),
+	OPER String(32767),
+	FLAFAT Boolean,
+	FADAT Date,
+	CODFIS String(32767),
+	STAFP String(32767),
+	FLADUP Boolean,
+	FLAFOR Boolean,
+	CPCOD String(32767),
+	RCOD String(32767),
+	OPNUM String(32767),
+	FLAFRE Boolean,
+	FEMIT Boolean
+);
+
+
+-- consis definição
+
+-- Drop table
+
+-- DROP TABLE consis;
+
+CREATE TABLE consis (
+	ENTID String(32767),
+	OCNO String(32767),
+	OCNOI String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767),
+	ITQOC Double,
+	ITVOC Double,
+	ITQRE Double,
+	ITVRE Double,
+	ITNO String(32767)
+);
+
+
+-- contra definição
+
+-- Drop table
+
+-- DROP TABLE contra;
+
+CREATE TABLE contra (
+	COCOD String(32767),
+	CODESC String(32767),
+	FCOD String(32767)
+);
+
+
+-- copia definição
+
+-- Drop table
+
+-- DROP TABLE copia;
+
+CREATE TABLE copia (
+	IT_TI String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	LIBER Boolean,
+	ITDESC String(32767),
+	ITDEC1 String(32767),
+	ITUNE String(32767),
+	CHAVE String(32767),
+	EAN13 String(32767),
+	DIG13 String(32767),
+	GRUPOP Double,
+	BITOLA Double
+);
+
+
+-- cores definição
+
+-- Drop table
+
+-- DROP TABLE cores;
+
+CREATE TABLE cores (
+	IT_CR String(32767),
+	COR String(32767),
+	CODCR String(32767),
+	CORGB String(32767),
+	COIMG String(32767)
+);
+
+
+-- corte definição
+
+-- Drop table
+
+-- DROP TABLE corte;
+
+CREATE TABLE corte (
+	COBOB String(32767),
+	ORDEM String(32767),
+	SERIE String(32767),
+	UNOME String(32767),
+	UDATA Date,
+	UHORA String(32767)
+);
+
+
+-- cotac definição
+
+-- Drop table
+
+-- DROP TABLE cotac;
+
+CREATE TABLE cotac (
+	CTNO String(32767),
+	NCOT String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767),
+	ITVUN Double,
+	ITVLI Double,
+	ITVIT Double,
+	ITCUF Double,
+	ITDE1 Double,
+	ITDE2 Double,
+	ITDE3 Double,
+	ITDE4 Double,
+	ITDET Double,
+	ITIPI Double,
+	ITUCA Double,
+	CTDAT Date,
+	OCNO String(32767)
+);
+
+
+-- cotat definição
+
+-- Drop table
+
+-- DROP TABLE cotat;
+
+CREATE TABLE cotat (
+	CTNO String(32767),
+	PRECO Double,
+	CTNI String(32767),
+	NCOT String(32767),
+	PTPRE Double,
+	FNOTA String(32767),
+	FTIPO String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767),
+	ITVUN Double,
+	ITVLI Double,
+	ITVIT Double,
+	ITCUF Double,
+	ITDE1 Double,
+	ITDE2 Double,
+	ITDE3 Double,
+	ITDE4 Double,
+	ITDET Double,
+	ITIPI Double,
+	ITUCA Double,
+	CTDAT Date,
+	OCNO String(32767),
+	FEDAT Date,
+	FCOD String(32767),
+	FILIAL String(32767),
+	PREV Date,
+	ENTR Date
+);
+
+
+-- csutr definição
+
+-- Drop table
+
+-- DROP TABLE csutr;
+
+CREATE TABLE csutr (
+	UFORI String(32767),
+	UFDES String(32767),
+	ICMDE Double,
+	MVADE Double,
+	CDNCM String(32767),
+	DENCM String(32767)
+);
+
+
+-- cus definição
+
+-- Drop table
+
+-- DROP TABLE cus;
+
+CREATE TABLE cus (
+	OBCOD String(32767),
+	OBCTT String(32767),
+	GRUPO String(32767),
+	OBCOD1 String(32767),
+	OBCTT1 String(32767),
+	GRUPO1 String(32767)
+);
+
+
+-- cusoc definição
+
+-- Drop table
+
+-- DROP TABLE cusoc;
+
+CREATE TABLE cusoc (
+	OCNO String(32767),
+	OBCOD String(32767),
+	OBCTT String(32767),
+	GR_PX String(32767),
+	GR_CO String(32767),
+	CUVLR Double,
+	VERBA Double,
+	CUSTO Double
+);
+
+
+-- cxadep definição
+
+-- Drop table
+
+-- DROP TABLE cxadep;
+
+CREATE TABLE cxadep (
+	CXADAT Date,
+	RESNO String(32767),
+	NCX String(32767),
+	CXVAL Double,
+	TOTVALAN Double,
+	SALDOTRANS Double,
+	CAIXA String(32767)
+);
+
+
+-- cxalan definição
+
+-- Drop table
+
+-- DROP TABLE cxalan;
+
+CREATE TABLE cxalan (
+	CHAVE String(32767),
+	NCX String(32767),
+	CXADAT Date,
+	RESNO String(32767),
+	CXAVAL Double,
+	CXANODOC String(32767),
+	CXAOBS String(32767),
+	SEOBRA String(32767),
+	OBRA2 String(32767),
+	OBCOD String(32767),
+	OBCTT String(32767),
+	GR_PX String(32767),
+	GR_CO String(32767),
+	DOUR String(32767),
+	TESTE String(32767),
+	CTBEXP String(32767),
+	UTEST Boolean
+);
+
+-- dcfop definição
+
+-- Drop table
+
+-- DROP TABLE dcfop;
+
+CREATE TABLE dcfop (
+	CFOP String(32767),
+	NATUR String(32767),
+	NATWK String(32767)
+);
+
+
+-- dispo definição
+
+-- Drop table
+
+-- DROP TABLE dispo;
+
+CREATE TABLE dispo (
+	DICOD String(32767),
+	DIDES String(32767)
+);
+
+
+-- divida definição
+
+-- Drop table
+
+-- DROP TABLE divida;
+
+CREATE TABLE divida (
+	FCOD String(32767),
+	DVALOR Double,
+	DDATA Date
+);
+
+
+-- dprod definição
+
+-- Drop table
+
+-- DROP TABLE dprod;
+
+CREATE TABLE dprod (
+	DIARL Date,
+	OEE Double,
+	DISP Double,
+	PERF Double,
+	QUAL Double,
+	KGPRO Double,
+	SUCAT Double,
+	QBOB Double,
+	KGPRF Double,
+	TTPRO Double,
+	TGPRO Double,
+	TSAPO Double,
+	TPAPO Double,
+	APROV Double,
+	REPRO Double,
+	SENSA Double
+);
+
+
+-- dsad definição
+
+-- Drop table
+
+-- DROP TABLE dsad;
+
+CREATE TABLE dsad (
+	PICOD String(32767),
+	"LOCAL" String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	BONUM String(32767),
+	QUAKG Double,
+	ITDESC String(32767)
+);
+
+
+-- dsdasd definição
+
+-- Drop table
+
+-- DROP TABLE dsdasd;
+
+CREATE TABLE dsdasd (
+	OBCOD String(32767),
+	OBCTT String(32767),
+	OBCDE String(32767)
+);
+
+
+-- dupter definição
+
+-- Drop table
+
+-- DROP TABLE dupter;
+
+CREATE TABLE dupter (
+	CHDAT Date,
+	CHVEN Date,
+	CHBAN String(32767),
+	CHNUM String(32767),
+	CHEMI String(32767),
+	CHVLR Double,
+	CHSTA String(32767),
+	BANCOD String(32767),
+	NCHEQ String(32767),
+	NREME String(32767),
+	RETPO String(32767),
+	ORIGC String(32767),
+	REMNO String(32767),
+	DUNOM String(32767),
+	CHORD String(32767),
+	DUEND String(32767),
+	DFONE String(32767),
+	DMUNI String(32767),
+	DUF String(32767),
+	DIDEN String(32767),
+	DIES String(32767),
+	DCEND String(32767),
+	DCMUN String(32767),
+	DCUF String(32767),
+	DCCEP String(32767),
+	DCEP String(32767)
+);
+
+
+-- e1 definição
+
+-- Drop table
+
+-- DROP TABLE e1;
+
+CREATE TABLE e1 (
+	COA String(32767),
+	ITEUN String(32767),
+	PESOL Double,
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITEST Double,
+	COACO String(32767),
+	ITUNE String(32767),
+	FCOD String(32767),
+	COAQT Double,
+	ITRES Double,
+	ITNOF Double,
+	COBOB String(32767),
+	TOTIT Double,
+	QUAIT Double,
+	CORNO String(32767),
+	LIMBO Boolean,
+	OSNUM String(32767),
+	PECOD String(32767),
+	CHAVE String(32767)
+);
+
+
+-- ean13 definição
+
+-- Drop table
+
+-- DROP TABLE ean13;
+
+CREATE TABLE ean13 (
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	METRO Double,
+	ITDESC String(32767),
+	ITDEC1 String(32767),
+	ITUNE String(32767),
+	CHAVE String(32767),
+	EAN13 String(32767),
+	DIG13 String(32767),
+	GRUPOP Double,
+	BITOLA Double
+);
+
+
+-- emifi definição
+
+-- Drop table
+
+-- DROP TABLE emifi;
+
+CREATE TABLE emifi (
+	IDENT String(32767),
+	FNOME String(32767)
+);
+
+
+-- emiten definição
+
+-- Drop table
+
+-- DROP TABLE emiten;
+
+CREATE TABLE emiten (
+	IDENT String(32767),
+	RAZAO String(32767),
+	FNOME String(32767),
+	FEND String(32767),
+	FCID String(32767),
+	FUF String(32767),
+	FCEP String(32767),
+	FTEL1 String(32767),
+	FIEST String(32767),
+	EMAIL String(32767),
+	FAPELIDO String(32767),
+	FBAIRRO String(32767)
+);
+
+
+-- enge definição
+
+-- Drop table
+
+-- DROP TABLE enge;
+
+CREATE TABLE enge (
+	ENGNUM String(32767),
+	ENGNOME String(32767)
+);
+
+
+-- ensai definição
+
+-- Drop table
+
+-- DROP TABLE ensai;
+
+CREATE TABLE ensai (
+	ENCOD String(32767),
+	ENPRO String(32767),
+	ENNOM String(32767),
+	TIPO String(32767),
+	NORMA1 String(32767),
+	NORMA2 String(32767)
+);
+
+
+-- ensaio definição
+
+-- Drop table
+
+-- DROP TABLE ensaio;
+
+CREATE TABLE ensaio (
+	S1 String(32767),
+	ENCOD String(32767),
+	PROC String(32767),
+	S3 String(32767),
+	ENNOM String(32767),
+	S2 String(32767),
+	TIPO String(32767),
+	X3 String(32767),
+	NORMA1 String(32767),
+	NORMA2 String(32767),
+	S4 String(32767)
+);
+
+
+-- entes definição
+
+-- Drop table
+
+-- DROP TABLE entes;
+
+CREATE TABLE entes (
+	CHAVE String(32767),
+	ITSALM Double,
+	MOVDATA Date,
+	ITQUM Double,
+	ITQUK Double,
+	NOTA String(32767),
+	PECOD String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767),
+	ITDCO Boolean,
+	ITVUN Double,
+	ITQUA Double,
+	COMI1 Double,
+	DATAE Date,
+	IBICM Double,
+	IAICM Double,
+	IVICM Double,
+	IVSUB Double,
+	IBSUB Double,
+	IBIPI Double,
+	IAIPI Double,
+	IVIPI Double,
+	ITOBS String(32767),
+	ITVLR Double,
+	ITTOT Double,
+	COEFE Double,
+	ITQES Double,
+	ITQFT Double,
+	ITEUN String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	COACO String(32767),
+	COAQT Double,
+	COA String(32767),
+	DAENT Date
+);
+
+
+-- eqban definição
+
+-- Drop table
+
+-- DROP TABLE eqban;
+
+CREATE TABLE eqban (
+	EQCOD String(32767),
+	BANCA String(32767),
+	TBCOD String(32767)
+);
+
+
+-- eqens definição
+
+-- Drop table
+
+-- DROP TABLE eqens;
+
+CREATE TABLE eqens (
+	EQCOD String(32767),
+	EQDES String(32767),
+	ULAFE Date,
+	PRAFE Date,
+	EQOBS String(32767),
+	BANCA String(32767)
+);
+
+
+-- etms definição
+
+-- Drop table
+
+-- DROP TABLE etms;
+
+CREATE TABLE etms (
+	EMETI String(32767),
+	IT_TI String(32767),
+	OSNUM String(32767),
+	OSNUX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	COQTD String(32767),
+	COACO String(32767),
+	COMUN Double,
+	COMTT Double,
+	COKUN Double,
+	COKTT Double,
+	COPI1 String(32767),
+	COPI2 String(32767),
+	COCLI String(32767),
+	COICL Boolean,
+	COISQ Boolean,
+	CLNOM String(32767),
+	ETQQU Double,
+	ETQUN String(32767),
+	KGBR Double,
+	KGLI Double,
+	BOBI String(32767),
+	OBSC String(32767),
+	ROMAN String(32767),
+	COMEM Double,
+	CNOME String(32767),
+	CDATA Date,
+	CHORA String(32767),
+	COBOB String(32767),
+	REPNO String(32767)
+);
+
+
+-- etqex definição
+
+-- Drop table
+
+-- DROP TABLE etqex;
+
+CREATE TABLE etqex (
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	UNIDA String(32767),
+	DESEX String(32767),
+	CODEX String(32767),
+	FCOD String(32767)
+);
+
+
+-- etqex1 definição
+
+-- Drop table
+
+-- DROP TABLE etqex1;
+
+CREATE TABLE etqex1 (
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	DESEX String(32767),
+	CODEX String(32767),
+	FCOD String(32767)
+);
+
+
+-- f1 definição
+
+-- Drop table
+
+-- DROP TABLE f1;
+
+CREATE TABLE f1 (
+	CHAVE String(32767),
+	UT String(32767),
+	DFNO String(32767),
+	DFFOR String(32767),
+	DFFIL String(32767),
+	IT_TI String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767),
+	ITVUN Double,
+	ITOCO String(32767),
+	ITQUA Double,
+	ITVIT Double,
+	IVIPI Double,
+	ITIPI Double,
+	ITICM Double,
+	PROCESS Boolean,
+	TEMICM Boolean,
+	TEMIPI Boolean,
+	FLAGC Boolean,
+	BAICM Double,
+	BAIPI Double,
+	BOUPI Double,
+	BOUCM Double,
+	BISPI Double,
+	BISCM Double,
+	VAICM Double,
+	VAIPI Double,
+	IAICM Double,
+	IAIPI Double,
+	CTPIS String(32767),
+	CTCOF String(32767),
+	ALPIS Double,
+	BAPIS Double,
+	VAPIS Double,
+	ALCOF Double,
+	BACOF Double,
+	VACOF Double
+);
+
+
+-- fases definição
+
+-- Drop table
+
+-- DROP TABLE fases;
+
+CREATE TABLE fases (
+	FACOD String(32767),
+	FADES String(32767)
+);
+
+
+-- fconta definição
+
+-- Drop table
+
+-- DROP TABLE fconta;
+
+CREATE TABLE fconta (
+	FCOD String(32767),
+	FNOME String(32767),
+	ORIGEM String(32767),
+	FCCO String(32767),
+	HIST String(32767),
+	OBCOD String(32767),
+	OBCTT String(32767),
+	VARIA Boolean,
+	GR_PX String(32767),
+	GR_CO String(32767)
+);
+
+
+-- fenfe definição
+
+-- Drop table
+
+-- DROP TABLE fenfe;
+
+CREATE TABLE fenfe (
+	ECODI String(32767),
+	FANUM String(32767),
+	FEDAT Date,
+	FEHOR String(32767),
+	FEUSU String(32767),
+	EMAIL String(32767),
+	CHAVE String(32767),
+	EASSU String(32767)
+);
+
+
+-- fiacde definição
+
+-- Drop table
+
+-- DROP TABLE fiacde;
+
+CREATE TABLE fiacde (
+	ENTID String(32767),
+	VALOR Double,
+	MAIME String(32767),
+	CONTA String(32767),
+	DESCR String(32767),
+	BASEI Double,
+	FACOD String(32767)
+);
+
+
+-- ficnab definição
+
+-- Drop table
+
+-- DROP TABLE ficnab;
+
+CREATE TABLE ficnab (
+	BANCO String(32767),
+	BANCC String(32767),
+	DGRAV String(32767),
+	ARQUI String(32767),
+	TLANC Double,
+	TREJE Double,
+	USUAR String(32767),
+	UDATA Date,
+	UHORA String(32767),
+	MOVAR String(32767)
+);
+
+
+-- ficpro definição
+
+-- Drop table
+
+-- DROP TABLE ficpro;
+
+CREATE TABLE ficpro (
+	BANCOD String(32767),
+	MAOUF String(32767),
+	FATNO String(32767),
+	FATOR String(32767),
+	FTIPO String(32767),
+	FSTAT String(32767),
+	FUSER String(32767),
+	FDATA Date,
+	FHORA String(32767),
+	FIVE0 Date,
+	FIVE1 Date,
+	FIVAB Double,
+	FCOD String(32767),
+	FIVLI Double,
+	NCOBR String(32767),
+	REMNO String(32767)
+);
+
+
+-- fivaca definição
+
+-- Drop table
+
+-- DROP TABLE fivaca;
+
+CREATE TABLE fivaca (
+	ENTID String(32767),
+	NOTAF String(32767),
+	VALOR Double
+);
+
+
+-- fluxo definição
+
+-- Drop table
+
+-- DROP TABLE fluxo;
+
+CREATE TABLE fluxo (
+	FIVEN Date,
+	DBASE Date,
+	DIA String(32767),
+	DESCR String(32767),
+	FIDES Double,
+	FIREC Double,
+	VALOR Double,
+	OBSER String(32767),
+	ZERO Double
+);
+
+
+-- fn definição
+
+-- Drop table
+
+-- DROP TABLE fn;
+
+CREATE TABLE fn (
+	FADAT Date,
+	PECOD String(32767),
+	COBOB String(32767),
+	"DATA" Date,
+	NOTA String(32767),
+	DEST String(32767),
+	FANUM String(32767),
+	PENUM String(32767),
+	FACOD String(32767),
+	FITEM String(32767),
+	SERIE String(32767),
+	IT_TI String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767),
+	ITDCO Boolean,
+	ITVUN Double,
+	ITQUA Double,
+	IBICM Double,
+	IAICM Double,
+	IVICM Double,
+	IVSUB Double,
+	IBSUB Double,
+	IBIPI Double,
+	IAIPI Double,
+	IVIPI Double,
+	IBISS Double,
+	IAISS Double,
+	IVISS Double,
+	ITOBS String(32767),
+	ITVLR Double,
+	ITTOT Double,
+	MODDES Boolean,
+	COEFE Double,
+	ITQES Double,
+	ITEUN String(32767),
+	SITRI String(32767),
+	CLAFI String(32767),
+	CLAFIS String(32767),
+	ITCUS Double,
+	ITDES Double,
+	TESTE String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	ITCOMI Double,
+	CARGA String(32767),
+	CACOD String(32767),
+	NLINP Double,
+	COACO String(32767),
+	COAQT Double,
+	PESOI Double,
+	PECLI String(32767),
+	PESOL Double,
+	PESOB Double,
+	CTICM String(32767),
+	CTIPI String(32767),
+	CTPIS String(32767),
+	CTCOF String(32767),
+	ICEAN String(32767),
+	ITNCM String(32767),
+	ICFOP String(32767),
+	IVPIS Double,
+	IAPIS Double,
+	IBPIS Double,
+	IVCOF Double,
+	IACOF Double,
+	IBCOF Double,
+	IORIG String(32767),
+	IPMVA Double,
+	IASUB Double,
+	DINUM String(32767),
+	DIDAT Date,
+	DILOC String(32767),
+	DIUFD String(32767),
+	DIDTD Date,
+	DIEXP String(32767),
+	VFRET Double,
+	VSEGU Double,
+	DESTO Double,
+	OUTRA Double
+);
+
+
+-- fonfe definição
+
+-- Drop table
+
+-- DROP TABLE fonfe;
+
+CREATE TABLE fonfe (
+	FAORI String(32767),
+	SERIE String(32767),
+	FANUM String(32767),
+	FACOD String(32767),
+	FADAT Date,
+	EMIUS String(32767),
+	EMIDA Date,
+	EMIHO String(32767),
+	FNOME String(32767),
+	CHAVE String(32767),
+	IDANF String(32767),
+	EMAIL String(32767)
+);
+
+
+-- fonfw definição
+
+-- Drop table
+
+-- DROP TABLE fonfw;
+
+CREATE TABLE fonfw (
+	FAORI String(32767),
+	SERIE String(32767),
+	FANUM String(32767),
+	FACOD String(32767),
+	CHAVE String(32767),
+	NLOTE Double,
+	DANFE Boolean,
+	DAHOR String(32767),
+	DADAT Date,
+	CSTAT String(32767),
+	MOTIV String(32767),
+	NPROT String(32767),
+	DHREC String(32767)
+);
+
+
+-- for1 definição
+
+-- Drop table
+
+-- DROP TABLE for1;
+
+CREATE TABLE for1 (
+	FILIAL String(32767),
+	FCOD String(32767),
+	FNOME String(32767),
+	FTIPO String(32767),
+	FEND String(32767),
+	FCID String(32767),
+	FUF String(32767),
+	FCEP String(32767),
+	FTEL1 String(32767),
+	FTEL2 String(32767),
+	FCGC String(32767),
+	FCONT String(32767),
+	FTEX String(32767),
+	FIEST String(32767),
+	FOBS String(32767),
+	FICM Double,
+	FCPF String(32767),
+	FCPO String(32767),
+	FFAX String(32767),
+	FAPELIDO String(32767),
+	FOIMU String(32767),
+	FCCO String(32767),
+	FCCF String(32767),
+	CODFIS String(32767),
+	QUALI Double,
+	GR_PX String(32767),
+	GR_CO String(32767),
+	OBCOD String(32767),
+	OBCTT String(32767),
+	VARIA Boolean,
+	FBAIRRO String(32767),
+	CTBEXP Boolean,
+	CTBIMP Boolean,
+	CMUNI String(32767),
+	SIMPL Boolean,
+	IDENT String(32767)
+);
+
+
+-- forbr definição
+
+-- Drop table
+
+-- DROP TABLE forbr;
+
+CREATE TABLE forbr (
+	FORNE String(32767),
+	CODFO String(32767),
+	DESFO String(32767),
+	DFNO String(32767),
+	DFFOR String(32767),
+	DFFIL String(32767),
+	IT_TI String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767)
+);
+
+
+-- forew definição
+
+-- Drop table
+
+-- DROP TABLE forew;
+
+CREATE TABLE forew (
+	SERIE String(32767),
+	FANUM String(32767),
+	FACOD String(32767),
+	DAHOR String(32767),
+	DADAT Date,
+	CSTAT String(32767),
+	MOTIV String(32767),
+	DHREC String(32767)
+);
+
+
+-- forman definição
+
+-- Drop table
+
+-- DROP TABLE forman;
+
+CREATE TABLE forman (
+	FILIAL String(32767),
+	FCOD String(32767),
+	FNOME String(32767),
+	FEND String(32767),
+	FCID String(32767),
+	FUF String(32767),
+	FCEP String(32767),
+	FTEL1 String(32767),
+	FTEL2 String(32767),
+	FCGC String(32767),
+	FCONT String(32767),
+	FTEX String(32767),
+	FIEST String(32767),
+	FOBS String(32767),
+	FICM Double,
+	FCPF String(32767),
+	FCPO String(32767),
+	FFAX String(32767),
+	FAPELIDO String(32767),
+	FOIMU String(32767),
+	FCCO String(32767),
+	CODFIS String(32767)
+);
+
+
+-- formnf definição
+
+-- Drop table
+
+-- DROP TABLE formnf;
+
+CREATE TABLE formnf (
+	NNF String(32767),
+	FATNO String(32767),
+	FASTA String(32767),
+	FADAT Date
+);
+
+
+-- fornf definição
+
+-- Drop table
+
+-- DROP TABLE fornf;
+
+CREATE TABLE fornf (
+	SERIE String(32767),
+	IMPRE String(32767),
+	FANUM String(32767),
+	IMPUS String(32767),
+	IMPDA Date,
+	IMPHO String(32767)
+);
+
+
+-- fotip definição
+
+-- Drop table
+
+-- DROP TABLE fotip;
+
+CREATE TABLE fotip (
+	CTIPO String(32767),
+	CDESC String(32767)
+);
+
+
+-- gefpch definição
+
+-- Drop table
+
+-- DROP TABLE gefpch;
+
+CREATE TABLE gefpch (
+	COD String(32767),
+	NOME String(32767),
+	VENC String(32767),
+	VALOR1 String(32767),
+	VIR String(32767),
+	VALOR2 String(32767),
+	TIPO String(32767),
+	STAFP String(32767),
+	MAFIOB String(32767),
+	ENTID String(32767)
+);
+
+
+-- gerad definição
+
+-- Drop table
+
+-- DROP TABLE gerad;
+
+CREATE TABLE gerad (
+	IMPOR Boolean,
+	OBCOD String(32767),
+	OBCTT String(32767),
+	OBCDE String(32767),
+	OBRES String(32767)
+);
+
+
+-- gercus definição
+
+-- Drop table
+
+-- DROP TABLE gercus;
+
+CREATE TABLE gercus (
+	IMPOR Boolean,
+	OBCOD String(32767),
+	OBNOM String(32767),
+	OBRES String(32767)
+);
+
+
+-- grcume definição
+
+-- Drop table
+
+-- DROP TABLE grcume;
+
+CREATE TABLE grcume (
+	ANOMES String(32767),
+	GR_PX String(32767),
+	GR_CO String(32767),
+	CVLRR Double,
+	CVLRD Double
+);
+
+
+-- grfix definição
+
+-- Drop table
+
+-- DROP TABLE grfix;
+
+CREATE TABLE grfix (
+	FCOD String(32767),
+	DESTIN String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	GR_PX String(32767),
+	GR_CO String(32767),
+	OBCOD String(32767),
+	OBCTT String(32767)
+);
+
+
+-- grupo definição
+
+-- Drop table
+
+-- DROP TABLE grupo;
+
+CREATE TABLE grupo (
+	PICOD String(32767),
+	IT_PX String(32767),
+	ALIPI Double,
+	IT_GR String(32767),
+	TIPOP String(32767),
+	TISOL String(32767),
+	PRAZO Double,
+	GRDEP String(32767),
+	SIGLA String(32767),
+	GRABR String(32767),
+	GRDER String(32767),
+	GRDES String(32767),
+	DESET String(32767),
+	OB1ET String(32767),
+	OB2ET String(32767),
+	CLAFI String(32767),
+	TIPO String(32767),
+	GRCLA String(32767),
+	GRNOM String(32767),
+	GRTAB String(32767),
+	GRTCD String(32767),
+	GRTDT Date,
+	GRTRV String(32767),
+	GRNOR String(32767),
+	GROB1 String(32767),
+	GROB2 String(32767),
+	GROB3 String(32767),
+	GROB4 String(32767),
+	GROB5 String(32767),
+	GROB6 String(32767),
+	GROB7 String(32767),
+	GROB8 String(32767),
+	SITRI String(32767),
+	TESTE String(32767)
+);
+
+
+-- impet definição
+
+-- Drop table
+
+-- DROP TABLE impet;
+
+CREATE TABLE impet (
+	MAOUF String(32767),
+	"LOCAL" String(32767),
+	LOGIP String(32767),
+	LPTX String(32767),
+	ITIPO String(32767),
+	ISIOP String(32767),
+	IMCOD String(32767),
+	INOME String(32767),
+	IDESC String(32767)
+);
+
+
+-- impin definição
+
+-- Drop table
+
+-- DROP TABLE impin;
+
+CREATE TABLE impin (
+	IMPRE String(32767),
+	NCUPS String(32767),
+	TIPO String(32767)
+);
+
+
+-- impit definição
+
+-- Drop table
+
+-- DROP TABLE impit;
+
+CREATE TABLE impit (
+	IORIG String(32767),
+	ICFOP String(32767),
+	RECOD String(32767),
+	ITEM String(32767),
+	"LOCAL" String(32767),
+	DFNO String(32767),
+	DFFOR String(32767),
+	DFFIL String(32767),
+	OCNO String(32767),
+	OCNOI String(32767),
+	IT_TI String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	GR_PX String(32767),
+	GR_CO String(32767),
+	ITUNE String(32767),
+	OBCOD String(32767),
+	OBCTT String(32767),
+	ITNO String(32767),
+	ITQUA Double,
+	ITVUN Double,
+	ITVLI Double,
+	ITVIT Double,
+	ITCUF Double,
+	ITDET Double,
+	CCDEB String(32767),
+	CCCRE String(32767),
+	CTIPI String(32767),
+	IVIPI Double,
+	IAIPI Double,
+	IBIPI Double,
+	CTICM String(32767),
+	IVICM Double,
+	IBICM Double,
+	IAICM Double,
+	CTPIS String(32767),
+	IBPIS Double,
+	IVPIS Double,
+	IAPIS Double,
+	CTCOF String(32767),
+	IBCOF Double,
+	IVCOF Double,
+	IACOF Double,
+	CAICM Boolean,
+	CAIPI Boolean,
+	CAPIS Boolean,
+	CACOF Boolean,
+	ITVAL Double,
+	IVSUB Double,
+	IBSUB Double,
+	FORTP String(32767)
+);
+
+
+-- impre definição
+
+-- Drop table
+
+-- DROP TABLE impre;
+
+CREATE TABLE impre (
+	MAOUF String(32767),
+	"LOCAL" String(32767),
+	LOGIP String(32767),
+	LPTX String(32767),
+	ITIPO String(32767),
+	ISIOP String(32767),
+	IMCOD String(32767),
+	INOME String(32767),
+	IDESC String(32767)
+);
+
+
+-- it definição
+
+-- Drop table
+
+-- DROP TABLE it;
+
+CREATE TABLE it (
+	ITEST Double,
+	CHAVE String(32767),
+	"LOCAL" String(32767),
+	PTIPO String(32767),
+	FANUM String(32767),
+	COMPL Boolean,
+	INCON Boolean,
+	APROV Boolean,
+	FACOM Boolean,
+	FA1PE Boolean,
+	CPCOD String(32767),
+	RCOD String(32767),
+	PECOD String(32767),
+	PECOE String(32767),
+	ITREE Boolean,
+	ITRES Boolean,
+	ITINF Boolean,
+	ICANC Boolean,
+	PESEP String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767),
+	ITDCO Boolean,
+	ITVU3 Double,
+	ITVUN Double,
+	ITCOR Double,
+	ITQUA Double,
+	ITQUO Double,
+	COMI1 Double,
+	DATAE Date,
+	IBICM Double,
+	IAICM Double,
+	IVICM Double,
+	IVSUB Double,
+	IBSUB Double,
+	IBIPI Double,
+	OSNUM String(32767),
+	CORNO String(32767),
+	BOBIN String(32767),
+	ITNOF Double,
+	ITOBS String(32767),
+	ITVLR Double,
+	IVIPI Double,
+	ITTOT Double,
+	COEFE Double,
+	ITQES Double,
+	ITQFT Double,
+	ITEUN String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	COACO String(32767),
+	COAQT Double,
+	DIBLQ Double,
+	DAORI Date,
+	DAENT Date,
+	PESOI Double,
+	SITRI String(32767),
+	CODCL String(32767),
+	USRES String(32767),
+	USDAT Date,
+	USHOR String(32767),
+	ITSEP Double,
+	COBOB String(32767),
+	RESER String(32767),
+	AUSUA String(32767),
+	ADATA Date,
+	AHORA String(32767),
+	QTCOR Double,
+	CETUN String(32767),
+	CEACO String(32767),
+	CTDAT Date,
+	TESTE String(32767),
+	TEST String(32767),
+	ITACR Double,
+	ITVU0 Double,
+	ITVU1 Double,
+	PECLI String(32767),
+	PEDAT Date,
+	PEOBD String(32767),
+	PEUSE String(32767),
+	PEUDT Date,
+	PEUHO String(32767)
+);
+
+
+-- itdes definição
+
+-- Drop table
+
+-- DROP TABLE itdes;
+
+CREATE TABLE itdes (
+	FACOD String(32767),
+	SERIE String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITDES1 String(32767),
+	ITDES2 String(32767),
+	ITDES3 String(32767),
+	ITDES4 String(32767),
+	ITDES5 String(32767),
+	ITDES6 String(32767),
+	ITDES7 String(32767),
+	ITDES8 String(32767),
+	ITDES9 String(32767),
+	ITDES10 String(32767),
+	ITDES11 String(32767),
+	ITDES12 String(32767),
+	ITDES13 String(32767),
+	ITDES14 String(32767),
+	ITDES15 String(32767),
+	ITDES16 String(32767),
+	ITDES17 String(32767),
+	ITDES18 String(32767)
+);
+
+
+-- itens definição
+
+-- Drop table
+
+-- DROP TABLE itens;
+
+CREATE TABLE itens (
+	IT_GR String(32767),
+	IT_BI String(32767),
+	CODIGO String(32767),
+	ITDES String(32767),
+	TAMBOR Double,
+	MMIN Double,
+	MMAX Double,
+	TAMBMIN String(32767)
+);
+
+
+-- itrep definição
+
+-- Drop table
+
+-- DROP TABLE itrep;
+
+CREATE TABLE itrep (
+	REPNO String(32767),
+	OSNUM String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	QUAIT Double,
+	QUARE Double,
+	ITUNE String(32767)
+);
+
+
+-- justi definição
+
+-- Drop table
+
+-- DROP TABLE justi;
+
+CREATE TABLE justi (
+	SIST String(32767),
+	JCOD String(32767),
+	JDESC String(32767)
+);
+
+
+-- kgpro definição
+
+-- Drop table
+
+-- DROP TABLE kgpro;
+
+CREATE TABLE kgpro (
+	OSNUM String(32767),
+	QMEDI Double,
+	KG_RO Double,
+	TBNOM String(32767),
+	TBDAT Date,
+	TBHOR String(32767)
+);
+
+
+-- kkb definição
+
+-- Drop table
+
+-- DROP TABLE kkb;
+
+CREATE TABLE kkb (
+	TESTE String(32767),
+	STABO String(32767),
+	CAGAD Boolean,
+	SPARK Boolean,
+	OSDAT Date,
+	OSCOD String(32767),
+	BONUM String(32767),
+	BOBNO String(32767),
+	TIPMP String(32767),
+	BOBMP String(32767),
+	OSINO String(32767),
+	OSSTA String(32767),
+	ELINK Boolean,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	BOQUA Double,
+	BOUNI String(32767),
+	BOBKG Double,
+	MACOD String(32767),
+	DATAI Date,
+	HORAI String(32767),
+	DATAF Date,
+	HORAF String(32767),
+	CORIF String(32767),
+	DARIF Date,
+	HORIF String(32767),
+	QUAUS Double,
+	QUAPR Double,
+	INICI Double,
+	"FINAL" Double,
+	MINIT String(32767),
+	OPCOD String(32767),
+	LBNNC String(32767),
+	TLANC Boolean,
+	TREPR Boolean,
+	RESUG String(32767),
+	OSIOK Boolean,
+	RETRA Boolean
+);
+
+
+-- laser definição
+
+-- Drop table
+
+-- DROP TABLE laser;
+
+CREATE TABLE laser (
+	L00 Double,
+	L01 Double,
+	L02 Double,
+	L03 Double,
+	L04 Double,
+	L05 Double,
+	L06 Double,
+	L07 Double,
+	L08 Double,
+	L09 Double,
+	L10 Double,
+	M00 Double,
+	M01 Double,
+	M02 Double,
+	M03 Double,
+	M04 Double,
+	M05 Double,
+	M06 Double,
+	M07 Double,
+	M08 Double,
+	M09 Double,
+	M10 Double,
+	MBO Double
+);
+
+
+-- laux1 definição
+
+-- Drop table
+
+-- DROP TABLE laux1;
+
+CREATE TABLE laux1 (
+	TBCOD String(32767),
+	OPCOD String(32767),
+	BONUM String(32767),
+	OSCOD String(32767),
+	ELINK Boolean,
+	OSDAT Date,
+	OSHOR String(32767),
+	OSUSE String(32767),
+	OSINO String(32767),
+	OSCHA String(32767),
+	OSIUI String(32767),
+	OSSTA String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSUNI String(32767),
+	ORIGEM String(32767),
+	OSADT Date,
+	CFASE String(32767),
+	CRECO Boolean,
+	MACOD String(32767),
+	PPRKG Double,
+	QPROI Double,
+	QPJUS Double,
+	QPACR Double,
+	TOTKG Double,
+	TOTIT Double,
+	QUAIT Double,
+	JDESC String(32767),
+	DAFEC Date,
+	COFEC String(32767),
+	DARIF Date,
+	CORIF String(32767),
+	OBRIF String(32767),
+	DALIQ Date,
+	COLIQ String(32767),
+	OSRIF String(32767),
+	OSRII Boolean,
+	OSOBS String(32767),
+	QOSI Double,
+	QPRO Double,
+	BOQU1 Double,
+	BOQU2 Double,
+	QUAPR Double,
+	INICI Double,
+	"FINAL" Double,
+	OSIOK Boolean,
+	MAQUI String(32767),
+	DESCR String(32767),
+	CORRE String(32767),
+	BOBNO String(32767),
+	OPERA String(32767)
+);
+
+
+-- laux2 definição
+
+-- Drop table
+
+-- DROP TABLE laux2;
+
+CREATE TABLE laux2 (
+	TBCOD String(32767),
+	OPCOD String(32767),
+	BONUM String(32767),
+	OSCOD String(32767),
+	ELINK Boolean,
+	OSDAT Date,
+	OSHOR String(32767),
+	OSUSE String(32767),
+	OSINO String(32767),
+	OSCHA String(32767),
+	OSIUI String(32767),
+	OSSTA String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSUNI String(32767),
+	ORIGEM String(32767),
+	OSADT Date,
+	CFASE String(32767),
+	CRECO Boolean,
+	MACOD String(32767),
+	PPRKG Double,
+	QPROI Double,
+	QPJUS Double,
+	QPACR Double,
+	TOTKG Double,
+	TOTIT Double,
+	QUAIT Double,
+	JDESC String(32767),
+	DAFEC Date,
+	COFEC String(32767),
+	DARIF Date,
+	CORIF String(32767),
+	OBRIF String(32767),
+	DALIQ Date,
+	COLIQ String(32767),
+	OSRIF String(32767),
+	OSRII Boolean,
+	OSOBS String(32767),
+	QOSI Double,
+	QPRO Double,
+	BOQU1 Double,
+	BOQU2 Double,
+	QUAPR Double,
+	INICI Double,
+	"FINAL" Double,
+	OSIOK Boolean,
+	MAQUI String(32767),
+	DESCR String(32767),
+	CORRE String(32767),
+	BOBNO String(32767),
+	OPERA String(32767)
+);
+
+
+-- lbmed definição
+
+-- Drop table
+
+-- DROP TABLE lbmed;
+
+CREATE TABLE lbmed (
+	TBCOD String(32767),
+	QAMOS Double,
+	QESTA Double,
+	OSNUM String(32767),
+	DECIM String(32767),
+	VALOM Double,
+	RESUL String(32767),
+	LLOTE String(32767)
+);
+
+
+-- lbrif definição
+
+-- Drop table
+
+-- DROP TABLE lbrif;
+
+CREATE TABLE lbrif (
+	TBCOD String(32767),
+	OSNUM String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	DECIM String(32767),
+	VALOQ Double,
+	VALOR Double,
+	VALOS Double,
+	VALOM Double,
+	VENSA Double,
+	DESCO String(32767),
+	RESUL String(32767),
+	LLOTE String(32767),
+	LINSP String(32767),
+	LINSC String(32767),
+	LDATA Date,
+	LDATC Date,
+	LHORA String(32767),
+	LHORC String(32767),
+	INSTR String(32767)
+);
+
+
+-- logdy definição
+
+-- Drop table
+
+-- DROP TABLE logdy;
+
+CREATE TABLE logdy (
+	SE1 String(32767),
+	DA1 Date,
+	DAF Date,
+	HO1 String(32767),
+	SIS String(32767)
+);
+
+
+-- lotmp definição
+
+-- Drop table
+
+-- DROP TABLE lotmp;
+
+CREATE TABLE lotmp (
+	LOTEN String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	LODAT Date,
+	LODES String(32767),
+	LOQUA Double,
+	LOQUU Double
+);
+
+
+-- lrimp definição
+
+-- Drop table
+
+-- DROP TABLE lrimp;
+
+CREATE TABLE lrimp (
+	NCNUM String(32767),
+	TBCOD String(32767),
+	BONUM String(32767),
+	OSINO String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	DECIM String(32767),
+	VALOR Double,
+	VALOS Double,
+	VENSA Double,
+	DESCO String(32767),
+	RESUL String(32767),
+	LLOTE String(32767),
+	LINSP String(32767),
+	LINSC String(32767),
+	LDATA Date,
+	LDATC Date,
+	LHORA String(32767),
+	LHORC String(32767),
+	INSTR String(32767)
+);
+
+
+-- lrimp7 definição
+
+-- Drop table
+
+-- DROP TABLE lrimp7;
+
+CREATE TABLE lrimp7 (
+	NCNUM String(32767),
+	TBCOD String(32767),
+	BONUM String(32767),
+	OSINO String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	DECIM String(32767),
+	VALOR Double,
+	VALOS Double,
+	VENSA Double,
+	DESCO String(32767),
+	RESUL String(32767),
+	LLOTE String(32767),
+	LINSP String(32767),
+	LINSC String(32767),
+	LDATA Date,
+	LDATC Date,
+	LHORA String(32767),
+	LHORC String(32767),
+	INSTR String(32767)
+);
+
+
+-- mahor definição
+
+-- Drop table
+
+-- DROP TABLE mahor;
+
+CREATE TABLE mahor (
+	MACOD String(32767),
+	MDATA Date,
+	MINIT String(32767),
+	QALOC Double,
+	QPROD Double,
+	QPREP Double,
+	QPARA Double
+);
+
+
+-- maqah definição
+
+-- Drop table
+
+-- DROP TABLE maqah;
+
+CREATE TABLE maqah (
+	MACOD String(32767),
+	MINIT String(32767),
+	MAINI Double,
+	MAFIN Double
+);
+
+
+-- maqal definição
+
+-- Drop table
+
+-- DROP TABLE maqal;
+
+CREATE TABLE maqal (
+	MACOD String(32767),
+	MDATA Date,
+	MINIT String(32767),
+	QALOC Double,
+	QPROD Double,
+	QPREP Double,
+	QPARA Double
+);
+
+
+-- maqcm definição
+
+-- Drop table
+
+-- DROP TABLE maqcm;
+
+CREATE TABLE maqcm (
+	MQCOD String(32767),
+	MQDES String(32767),
+	MACRE String(32767)
+);
+
+
+-- maqem definição
+
+-- Drop table
+
+-- DROP TABLE maqem;
+
+CREATE TABLE maqem (
+	MASEQ String(32767),
+	MACOD String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	QMETR Double,
+	TPREP Double,
+	TOPER Double
+);
+
+
+-- maqho definição
+
+-- Drop table
+
+-- DROP TABLE maqho;
+
+CREATE TABLE maqho (
+	MACOD String(32767),
+	MINIT String(32767),
+	MAQHO String(32767),
+	MADIA Date,
+	MAHOR String(32767),
+	MAQTM Double
+);
+
+
+-- maqpa definição
+
+-- Drop table
+
+-- DROP TABLE maqpa;
+
+CREATE TABLE maqpa (
+	MACOD String(32767),
+	MAQTP String(32767),
+	MAQPA String(32767),
+	MAQDE String(32767),
+	MPCOD String(32767)
+);
+
+
+-- maqpc definição
+
+-- Drop table
+
+-- DROP TABLE maqpc;
+
+CREATE TABLE maqpc (
+	MAQTP String(32767),
+	MACOD String(32767),
+	MAQPA String(32767),
+	MAQPC String(32767),
+	MADEC String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITUNE String(32767),
+	MPCOD String(32767)
+);
+
+
+-- maqpd definição
+
+-- Drop table
+
+-- DROP TABLE maqpd;
+
+CREATE TABLE maqpd (
+	MACOD String(32767),
+	MADIA String(32767),
+	MAINP Double,
+	MAFIP Double
+);
+
+
+-- maqpt definição
+
+-- Drop table
+
+-- DROP TABLE maqpt;
+
+CREATE TABLE maqpt (
+	MACOD String(32767),
+	MACOP String(32767),
+	MADEP String(32767)
+);
+
+
+-- maqui definição
+
+-- Drop table
+
+-- DROP TABLE maqui;
+
+CREATE TABLE maqui (
+	MACOD String(32767),
+	MALOC String(32767),
+	REPAS Boolean,
+	MADES String(32767),
+	MAPRO String(32767),
+	MADRE String(32767),
+	DESAT Boolean,
+	CFASE String(32767),
+	DISP Double,
+	PERF Double,
+	QUAL Double
+);
+
+
+-- maquinas definição
+
+-- Drop table
+
+-- DROP TABLE maquinas;
+
+CREATE TABLE maquinas (
+	MACOD String(32767),
+	MADES String(32767)
+);
+
+
+-- movin definição
+
+-- Drop table
+
+-- DROP TABLE movin;
+
+CREATE TABLE movin (
+	MOVNO String(32767),
+	MOVOP String(32767),
+	OPER String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	MODAT Date,
+	BONUM String(32767),
+	BOBMP String(32767),
+	QUANM Double,
+	QUANK Double,
+	SALDM Double,
+	SALDK Double,
+	TEMPO String(32767),
+	NOTAF String(32767),
+	SERIE String(32767),
+	ITQUA String(32767),
+	COACO String(32767),
+	COAQT Double,
+	ITUNE String(32767),
+	MOUSE String(32767),
+	MOHOR String(32767),
+	COBOB String(32767),
+	OSNUM Double,
+	REPNO Double
+);
+
+
+-- mp1 definição
+
+-- Drop table
+
+-- DROP TABLE mp1;
+
+CREATE TABLE mp1 (
+	MODAT Date,
+	MOHOR String(32767),
+	OPER String(32767),
+	QPESO Double,
+	CHAVE String(32767),
+	MPNUM String(32767),
+	LOCBO String(32767),
+	STABO String(32767),
+	"FINAL" Double,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	MPUSA Double,
+	ITDES String(32767),
+	MPQUA Double,
+	MPUNI String(32767),
+	MPACO String(32767),
+	MPQCO Double,
+	MPLOT String(32767),
+	MPOBS String(32767),
+	LOTE String(32767),
+	OSDAT Date
+);
+
+
+-- mpcad definição
+
+-- Drop table
+
+-- DROP TABLE mpcad;
+
+CREATE TABLE mpcad (
+	MPCOD String(32767),
+	MPDES String(32767),
+	MACOD String(32767),
+	MPTIP String(32767)
+);
+
+
+-- mprgr definição
+
+-- Drop table
+
+-- DROP TABLE mprgr;
+
+CREATE TABLE mprgr (
+	MODAT Date,
+	QPESO Double,
+	BONUM String(32767),
+	LOCBO String(32767),
+	STABO String(32767),
+	"FINAL" Double,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	MPUSA Double,
+	MPQUA Double,
+	MPUNI String(32767),
+	MPACO String(32767),
+	MPQCO Double,
+	MPLOT String(32767),
+	MPOBS String(32767),
+	RECOD String(32767),
+	NNOTA String(32767),
+	MLOTE String(32767),
+	QUAPR Double,
+	BOBKG Double,
+	OSDAT Date,
+	MNOME String(32767)
+);
+
+
+-- mprima definição
+
+-- Drop table
+
+-- DROP TABLE mprima;
+
+CREATE TABLE mprima (
+	CODIGO String(32767),
+	DESCRI String(32767)
+);
+
+
+-- mprod definição
+
+-- Drop table
+
+-- DROP TABLE mprod;
+
+CREATE TABLE mprod (
+	MACOD String(32767),
+	DIARL Date,
+	FFASE String(32767),
+	OEE Double,
+	DISP Double,
+	PERF Double,
+	QUAL Double,
+	KGPRO Double,
+	SUCAT Double,
+	QBOB Double,
+	KGPRF Double,
+	TTPRO Double,
+	TGPRO Double,
+	TSAPO Double,
+	TPAPO Double,
+	APROV Double,
+	REPRO Double,
+	SENSA Double,
+	MAOBS String(32767),
+	TXUSE String(32767),
+	TXHOR String(32767),
+	TXDAT Date
+);
+
+
+-- ms definição
+
+-- Drop table
+
+-- DROP TABLE ms;
+
+CREATE TABLE ms (
+	EMETI String(32767),
+	IT_TI String(32767),
+	OSNUM String(32767),
+	OSNUX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	COQTD String(32767),
+	COACO String(32767),
+	COMUN Double,
+	COMTT Double,
+	COKUN Double,
+	COKTT Double,
+	COPI1 String(32767),
+	COPI2 String(32767),
+	COCLI String(32767),
+	COICL Boolean,
+	COISQ Boolean,
+	CLNOM String(32767),
+	ETQQU Double,
+	ETQUN String(32767),
+	KGBR Double,
+	KGLI Double,
+	BOBI String(32767),
+	OBSC String(32767),
+	ROMAN String(32767),
+	COMEM Double,
+	CNOME String(32767),
+	CDATA Date,
+	CHORA String(32767),
+	COBOB String(32767),
+	REPNO String(32767)
+);
+
+
+-- nseet definição
+
+-- Drop table
+
+-- DROP TABLE nseet;
+
+CREATE TABLE nseet (
+	NSERI String(32767),
+	OSNUM String(32767),
+	OSNUX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	COACO String(32767),
+	ETQQU Double,
+	ETQUN String(32767),
+	FCOD String(32767)
+);
+
+
+-- nseri definição
+
+-- Drop table
+
+-- DROP TABLE nseri;
+
+CREATE TABLE nseri (
+	NSERI String(32767),
+	OSNUM String(32767),
+	OSNUX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	COACO String(32767),
+	ETQQU Double,
+	ETQUN String(32767),
+	FCOD String(32767),
+	COMUN Double,
+	REPNO String(32767),
+	EBOB Boolean
+);
+
+
+-- opera definição
+
+-- Drop table
+
+-- DROP TABLE opera;
+
+CREATE TABLE opera (
+	FUCOD String(32767),
+	CANCE Boolean,
+	FUSUA String(32767),
+	FNOME String(32767),
+	FCARG String(32767),
+	FDEPT String(32767),
+	FUSTA String(32767)
+);
+
+
+-- oprod definição
+
+-- Drop table
+
+-- DROP TABLE oprod;
+
+CREATE TABLE oprod (
+	OPSTA String(32767),
+	OPNUM String(32767),
+	IT_PX String(32767),
+	IT_CO String(32767),
+	ELPSX String(32767),
+	IT_TI String(32767),
+	IT_GR String(32767),
+	OPQMT Double,
+	OPQKG Double,
+	MASET String(32767),
+	MACOD String(32767),
+	SEQOP String(32767),
+	TEMP1 Double,
+	TEMP2 Double,
+	TEMPO Double,
+	TINIT Double,
+	TFINA Double
+);
+
+
+-- orimp definição
+
+-- Drop table
+
+-- DROP TABLE orimp;
+
+CREATE TABLE orimp (
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	MACOD String(32767),
+	DRIMP Date,
+	HRIMP String(32767),
+	OPCOD String(32767),
+	TLANC Boolean,
+	BONUM String(32767),
+	OSINO String(32767),
+	DICOD String(32767)
+);
+
+
+-- oscei definição
+
+-- Drop table
+
+-- DROP TABLE oscei;
+
+CREATE TABLE oscei (
+	OSDAT Date,
+	OSHOR String(32767),
+	OSNUM String(32767),
+	OSNUI String(32767),
+	OSSTA String(32767),
+	OSRIF String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSQUC Double,
+	OSUNI String(32767),
+	OSUNC String(32767),
+	OSOBS String(32767),
+	ORIGEM String(32767),
+	OSANT String(32767),
+	OSADT Date,
+	OSAFS String(32767),
+	OS_PO String(32767),
+	TOTIT Double,
+	TOTIC Double,
+	QUAIT Double,
+	JCOD String(32767),
+	IDATA Date,
+	IUSER String(32767)
+);
+
+
+-- oscem definição
+
+-- Drop table
+
+-- DROP TABLE oscem;
+
+CREATE TABLE oscem (
+	MEAMO Double,
+	PECAR Double,
+	OSDAT Date,
+	OSHOR String(32767),
+	OSNUM String(32767),
+	OSCHA String(32767),
+	OSNUI String(32767),
+	OSSTA String(32767),
+	PLANO String(32767),
+	OSSTL String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSQUC Double,
+	OSUNI String(32767),
+	OSUNC String(32767),
+	OSOBS String(32767),
+	ORIGEM String(32767),
+	OSANT String(32767),
+	OSADT Date,
+	OSAFS String(32767),
+	OS_PO String(32767),
+	TOTIT Double,
+	TOTIC Double,
+	QUAIT Double,
+	QUAET Double,
+	JDESC String(32767),
+	QUARI Double,
+	QUARR Double,
+	QUABO Double,
+	QUASU Double,
+	QUAEN Double,
+	METRI Double,
+	METRR Double,
+	METBO Double,
+	METSU Double,
+	METEN Double,
+	DAFEC Date,
+	HOFEC String(32767),
+	COFEC String(32767),
+	DARIF Date,
+	CORIF String(32767),
+	OBRIF String(32767),
+	DALIQ Date,
+	COLIQ String(32767),
+	OSRIF String(32767),
+	OSRII Boolean,
+	ELINK Boolean,
+	TPROD Double,
+	EPROD Double,
+	EPARA Double,
+	EPROO Double,
+	TPARA Double,
+	TPROO Double,
+	TREPR Boolean,
+	TLANC Boolean,
+	RESUG String(32767),
+	LBNNC String(32767),
+	HORIF String(32767),
+	MAQUI String(32767),
+	MAQCM String(32767),
+	DAEMI Date,
+	HOEMI String(32767)
+);
+
+
+-- osckk definição
+
+-- Drop table
+
+-- DROP TABLE osckk;
+
+CREATE TABLE osckk (
+	BOBMP String(32767),
+	MODAT Date,
+	VTOT Double,
+	VCOB Double,
+	COBRE Double,
+	USADO Double,
+	MEAMO Double,
+	PECAR Double,
+	OSDAT Date,
+	OSHOR String(32767),
+	OSNUM String(32767),
+	OSCHA String(32767),
+	OSNUI String(32767),
+	OSSTA String(32767),
+	PLANO String(32767),
+	OSSTL String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSQUC Double,
+	OSUNI String(32767),
+	OSUNC String(32767),
+	OSOBS String(32767),
+	ORIGEM String(32767),
+	OSANT String(32767),
+	OSADT Date,
+	OSAFS String(32767),
+	OS_PO String(32767),
+	TOTIT Double,
+	TOTIC Double,
+	QUAIT Double,
+	QUAET Double,
+	JDESC String(32767),
+	QUARI Double,
+	QUARR Double,
+	QUABO Double,
+	QUASU Double,
+	QUAEN Double,
+	METRI Double,
+	METRR Double,
+	METBO Double,
+	METSU Double,
+	METEN Double,
+	DAFEC Date,
+	HOFEC String(32767),
+	COFEC String(32767),
+	DARIF Date,
+	CORIF String(32767),
+	OBRIF String(32767),
+	DALIQ Date,
+	COLIQ String(32767),
+	OSRIF String(32767),
+	OSRII Boolean,
+	ELINK Boolean,
+	TPROD Double,
+	EPROD Double,
+	EPARA Double,
+	EPROO Double,
+	TPARA Double,
+	TPROO Double,
+	TREPR Boolean,
+	TLANC Boolean,
+	RESUG String(32767),
+	LBNNC String(32767),
+	HORIF String(32767),
+	MAQUI String(32767),
+	MAQCM String(32767),
+	DAEMI Date,
+	HOEMI String(32767)
+);
+
+
+-- oscor definição
+
+-- Drop table
+
+-- DROP TABLE oscor;
+
+CREATE TABLE oscor (
+	RESER String(32767),
+	PECOD String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	IT_CR String(32767),
+	OSNUM String(32767),
+	OSNUX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	COQTD String(32767),
+	COACO String(32767),
+	COMUN Double,
+	COMTT Double,
+	COKUN Double,
+	COKTT Double,
+	COPI1 String(32767),
+	COPI2 String(32767),
+	COCLI String(32767),
+	COICL Boolean,
+	COISQ Boolean,
+	CLNOM String(32767),
+	ETQQU Double,
+	ETQUN String(32767),
+	QPROM Double,
+	QENTI Double,
+	DFCOD String(32767),
+	DFORI String(32767),
+	DFQCQ Double,
+	DFUOP String(32767),
+	QETIQ Double,
+	ITOBS String(32767),
+	SEPAR String(32767),
+	DSEPA Date,
+	HSEPA String(32767)
+);
+
+
+-- osetb definição
+
+-- Drop table
+
+-- DROP TABLE osetb;
+
+CREATE TABLE osetb (
+	QUANT String(32767),
+	EMETI String(32767),
+	FANUM String(32767),
+	PECOD String(32767),
+	IT_TI String(32767),
+	OSNUM String(32767),
+	OSNUX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	COQTD String(32767),
+	COACO String(32767),
+	COMUN Double,
+	COMTT Double,
+	COKUN Double,
+	COKTT Double,
+	COPI1 String(32767),
+	COPI2 String(32767),
+	COCLI String(32767),
+	COICL Boolean,
+	COISQ Boolean,
+	CLNOM String(32767),
+	ETQQU Double,
+	ETQUN String(32767),
+	KGBR Double,
+	KGLI Double,
+	BOBI String(32767),
+	OBSC String(32767),
+	ROMAN String(32767),
+	COMEM Double,
+	CNOME String(32767),
+	CDATA Date,
+	CHORA String(32767),
+	COBOB String(32767),
+	REPNO String(32767),
+	MPA Double,
+	IACS Double,
+	DIAM Double,
+	LOTE String(32767),
+	PDATA Date,
+	LOBS String(32767)
+);
+
+
+-- osetb2 definição
+
+-- Drop table
+
+-- DROP TABLE osetb2;
+
+CREATE TABLE osetb2 (
+	QUANT String(32767),
+	EMETI String(32767),
+	FANUM String(32767),
+	PECOD String(32767),
+	IT_TI String(32767),
+	OSNUM String(32767),
+	OSNUX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	COQTD String(32767),
+	COACO String(32767),
+	COMUN Double,
+	COMTT Double,
+	COKUN Double,
+	COKTT Double,
+	COPI1 String(32767),
+	COPI2 String(32767),
+	COCLI String(32767),
+	COICL Boolean,
+	COISQ Boolean,
+	CLNOM String(32767),
+	ETQQU Double,
+	ETQUN String(32767),
+	KGBR Double,
+	KGLI Double,
+	BOBI String(32767),
+	OBSC String(32767),
+	ROMAN String(32767),
+	COMEM Double,
+	CNOME String(32767),
+	CDATA Date,
+	CHORA String(32767),
+	COBOB String(32767),
+	REPNO String(32767),
+	MPA Double,
+	IACS Double,
+	DIAM Double,
+	LOTE String(32767),
+	PDATA Date,
+	LOBS String(32767)
+);
+
+
+-- oseti definição
+
+-- Drop table
+
+-- DROP TABLE oseti;
+
+CREATE TABLE oseti (
+	TIPET String(32767),
+	OSNUM String(32767),
+	OSNUX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	COQTD String(32767),
+	COACO String(32767),
+	COMUN Double,
+	COMTT Double,
+	COKUN Double,
+	COKTT Double,
+	COPI1 String(32767),
+	COPI2 String(32767),
+	COCLI String(32767),
+	COICL Boolean,
+	COISQ Boolean,
+	CLNOM String(32767),
+	ETQQU Double,
+	ETQUN String(32767),
+	KGBR Double,
+	KGLI Double,
+	BOBI String(32767),
+	OBSC String(32767),
+	ROMAN String(32767),
+	COMEM Double,
+	CNOME String(32767),
+	CDATA Date,
+	CHORA String(32767)
+);
+
+
+-- osfec definição
+
+-- Drop table
+
+-- DROP TABLE osfec;
+
+CREATE TABLE osfec (
+	OSNUM String(32767),
+	OSNUX String(32767),
+	COQTD String(32767),
+	COACO String(32767),
+	COMUN Double,
+	COMTT Double,
+	COKUN Double,
+	COKTT Double,
+	COPI1 String(32767),
+	COPI2 String(32767),
+	COCLI String(32767),
+	COICL Boolean,
+	COISQ Boolean,
+	CLNOM String(32767),
+	ETQQU Double,
+	ETQUN String(32767)
+);
+
+
+-- osibo definição
+
+-- Drop table
+
+-- DROP TABLE osibo;
+
+CREATE TABLE osibo (
+	OSCOD String(32767),
+	CANCB Boolean,
+	TIBOB String(32767),
+	BONUM String(32767),
+	OSINO String(32767),
+	OSIN0 String(32767),
+	OSSEQ String(32767),
+	ELINK Boolean,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	BOQUA Double,
+	BOUNI String(32767),
+	BOBKG Double,
+	CFASE String(32767),
+	CRECO Boolean,
+	MACOD String(32767),
+	DATAI Date,
+	HORAI String(32767),
+	TOPER Double,
+	TPREP Double,
+	DACAN Date,
+	HOCAN String(32767),
+	NOCAN String(32767),
+	JUCAN String(32767)
+);
+
+
+-- osidp definição
+
+-- Drop table
+
+-- DROP TABLE osidp;
+
+CREATE TABLE osidp (
+	BONUM String(32767),
+	OSINO String(32767),
+	MACOD String(32767),
+	INICI Double,
+	"FINAL" Double,
+	MINI7 String(32767),
+	QUANT Double,
+	OPCOD String(32767),
+	TURNO String(32767)
+);
+
+
+-- osige definição
+
+-- Drop table
+
+-- DROP TABLE osige;
+
+CREATE TABLE osige (
+	OSCOD String(32767),
+	OSDAT Date,
+	OSHOR String(32767),
+	OSINO String(32767),
+	OSCHA String(32767),
+	OSIUI String(32767),
+	OSSTA String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSUNI String(32767),
+	ORIGEM String(32767),
+	OSADT Date,
+	CFASE String(32767),
+	CRECO Boolean,
+	MACOD String(32767),
+	TOTKG Double,
+	TOTIT Double,
+	QUAIT Double,
+	JDESC String(32767),
+	DAFEC Date,
+	COFEC String(32767),
+	DARIF Date,
+	CORIF String(32767),
+	OBRIF String(32767),
+	DALIQ Date,
+	COLIQ String(32767),
+	OSRIF String(32767),
+	OSRII Boolean,
+	OSOBS String(32767)
+);
+
+
+-- osigr definição
+
+-- Drop table
+
+-- DROP TABLE osigr;
+
+CREATE TABLE osigr (
+	TESTE String(32767),
+	STABO String(32767),
+	CAGAD Boolean,
+	SPARK Boolean,
+	OSDAT Date,
+	OSCOD String(32767),
+	BONUM String(32767),
+	BOBNO String(32767),
+	TIPMP String(32767),
+	BOBMP String(32767),
+	OSINO String(32767),
+	OSSTA String(32767),
+	ELINK Boolean,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	BOQUA Double,
+	BOUNI String(32767),
+	BOBKG Double,
+	MACOD String(32767),
+	DATAI Date,
+	HORAI String(32767),
+	DATAF Date,
+	HORAF String(32767),
+	CORIF String(32767),
+	DARIF Date,
+	HORIF String(32767),
+	QUAUS Double,
+	QUAPR Double,
+	INICI Double,
+	"FINAL" Double,
+	MINIT String(32767),
+	OPCOD String(32767),
+	LBNNC String(32767),
+	TLANC Boolean,
+	TREPR Boolean,
+	RESUG String(32767),
+	OSIOK Boolean,
+	RETRA Boolean
+);
+
+
+-- osigr23 definição
+
+-- Drop table
+
+-- DROP TABLE osigr23;
+
+CREATE TABLE osigr23 (
+	TESTE String(32767),
+	CAGAD Boolean,
+	SPARK Boolean,
+	OSDAT Date,
+	OSCOD String(32767),
+	BONUM String(32767),
+	BOBNO String(32767),
+	TIPMP String(32767),
+	BOBMP String(32767),
+	OSINO String(32767),
+	OSSTA String(32767),
+	ELINK Boolean,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	BOQUA Double,
+	BOUNI String(32767),
+	BOBKG Double,
+	MACOD String(32767),
+	DATAI Date,
+	HORAI String(32767),
+	DATAF Date,
+	HORAF String(32767),
+	CORIF String(32767),
+	DARIF Date,
+	HORIF String(32767),
+	QUAPR Double,
+	INICI Double,
+	"FINAL" Double,
+	MINIT String(32767),
+	OPCOD String(32767),
+	LBNNC String(32767),
+	TLANC Boolean,
+	TREPR Boolean,
+	RESUG String(32767),
+	OSIOK Boolean,
+	RETRA Boolean
+);
+
+
+-- osigr7 definição
+
+-- Drop table
+
+-- DROP TABLE osigr7;
+
+CREATE TABLE osigr7 (
+	TESTE String(32767),
+	CAGAD Boolean,
+	SPARK Boolean,
+	OSDAT Date,
+	OSCOD String(32767),
+	BONUM String(32767),
+	BOBNO String(32767),
+	TIPMP String(32767),
+	BOBMP String(32767),
+	OSINO String(32767),
+	OSSTA String(32767),
+	ELINK Boolean,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	BOQUA Double,
+	BOUNI String(32767),
+	BOBKG Double,
+	MACOD String(32767),
+	DATAI Date,
+	HORAI String(32767),
+	DATAF Date,
+	HORAF String(32767),
+	CORIF String(32767),
+	DARIF Date,
+	HORIF String(32767),
+	QUAPR Double,
+	INICI Double,
+	"FINAL" Double,
+	MINIT String(32767),
+	OPCOD String(32767),
+	LBNNC String(32767),
+	TLANC Boolean,
+	TREPR Boolean,
+	RESUG String(32767),
+	OSIOK Boolean,
+	RETRA Boolean
+);
+
+
+-- osimi definição
+
+-- Drop table
+
+-- DROP TABLE osimi;
+
+CREATE TABLE osimi (
+	OSSTA String(32767),
+	DARE Date,
+	BONUM String(32767),
+	BOBNO String(32767),
+	BOSNO String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	QUAN Double,
+	GERAD String(32767),
+	CORIF String(32767),
+	DARIF Date,
+	HORIF String(32767),
+	OPCOD String(32767),
+	OBSX String(32767)
+);
+
+
+-- osimp definição
+
+-- Drop table
+
+-- DROP TABLE osimp;
+
+CREATE TABLE osimp (
+	TESTE String(32767),
+	BONUM String(32767),
+	TIPMP String(32767),
+	BOBMP String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	MP_PX String(32767),
+	MP_CO String(32767),
+	MP_SX String(32767),
+	MPQUA Double,
+	QUANM Double,
+	QUANK Double,
+	MPUNI String(32767),
+	MPESO Double,
+	MPQRE String(32767)
+);
+
+
+-- osind definição
+
+-- Drop table
+
+-- DROP TABLE osind;
+
+CREATE TABLE osind (
+	OSCOD String(32767),
+	ELINK Boolean,
+	OSDAT Date,
+	OSHOR String(32767),
+	OSUSE String(32767),
+	OSINO String(32767),
+	OSCHA String(32767),
+	OSIUI String(32767),
+	OSSTA String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSUNI String(32767),
+	ORIGEM String(32767),
+	OSADT Date,
+	CFASE String(32767),
+	CRECO Boolean,
+	MACOD String(32767),
+	PPRKG Double,
+	QPROI Double,
+	QPJUS Double,
+	QPACR Double,
+	TOTKG Double,
+	TOTIT Double,
+	QUAIT Double,
+	JDESC String(32767),
+	DAFEC Date,
+	COFEC String(32767),
+	HOFEC String(32767),
+	DARIF Date,
+	CORIF String(32767),
+	OBRIF String(32767),
+	DALIQ Date,
+	COLIQ String(32767),
+	OSRIF String(32767),
+	OSRII Boolean,
+	OSOBS String(32767),
+	URGEN Boolean,
+	RETRA Boolean,
+	RNNNC String(32767),
+	RNBOB String(32767)
+);
+
+
+-- osiob definição
+
+-- Drop table
+
+-- DROP TABLE osiob;
+
+CREATE TABLE osiob (
+	BONUM String(32767),
+	BOBS1 String(32767),
+	BOBS2 String(32767),
+	BOBS3 String(32767),
+	BOBS4 String(32767)
+);
+
+
+-- osipa definição
+
+-- Drop table
+
+-- DROP TABLE osipa;
+
+CREATE TABLE osipa (
+	BONUM String(32767),
+	OSINO String(32767),
+	MINI7 String(32767),
+	MINIT String(32767),
+	PAINI Double,
+	PAFIN Double,
+	PACOD String(32767),
+	MACOD String(32767),
+	PUSER String(32767)
+);
+
+
+-- osipa2 definição
+
+-- Drop table
+
+-- DROP TABLE osipa2;
+
+CREATE TABLE osipa2 (
+	OSCOD String(32767),
+	OSINO String(32767),
+	MINIT String(32767),
+	PAINI Double,
+	PAFIN Double,
+	PACOD String(32767),
+	MACOD String(32767)
+);
+
+
+-- osipr definição
+
+-- Drop table
+
+-- DROP TABLE osipr;
+
+CREATE TABLE osipr (
+	OSCOD String(32767),
+	TIPOB String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	BOQUA Double,
+	BOUNI String(32767),
+	BOBKG Double,
+	CFASE String(32767),
+	CRECO Boolean,
+	MACOD String(32767),
+	DATAI Date,
+	HORAI String(32767),
+	TOPER Double,
+	TPREP Double
+);
+
+
+-- osisu definição
+
+-- Drop table
+
+-- DROP TABLE osisu;
+
+CREATE TABLE osisu (
+	BONUM String(32767),
+	SUCOD String(32767),
+	SUCQT Double
+);
+
+
+-- osliq definição
+
+-- Drop table
+
+-- DROP TABLE osliq;
+
+CREATE TABLE osliq (
+	OSDAT Date,
+	OSHOR String(32767),
+	OSNUM String(32767),
+	OSCHA String(32767),
+	OSNUI String(32767),
+	OSSTA String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSQUC Double,
+	OSUNI String(32767),
+	OSUNC String(32767),
+	OSOBS String(32767),
+	ORIGEM String(32767),
+	OSANT String(32767),
+	OSADT Date,
+	OSAFS String(32767),
+	OS_PO String(32767),
+	TOTIT Double,
+	TOTIC Double,
+	QUAIT Double,
+	QUAET Double,
+	JDESC String(32767),
+	QUARI Double,
+	QUARR Double,
+	QUABO Double,
+	QUASU Double,
+	QUAEN Double,
+	METRI Double,
+	METRR Double,
+	METBO Double,
+	METSU Double,
+	METEN Double,
+	DAFEC Date,
+	COFEC String(32767),
+	DARIF Date,
+	CORIF String(32767),
+	OBRIF String(32767),
+	DALIQ Date,
+	COLIQ String(32767),
+	OSRIF String(32767),
+	OSRII Boolean,
+	ELINK Boolean,
+	ITDESC String(32767),
+	TPROD Double,
+	TPARA Double,
+	TPROO Double
+);
+
+
+-- osnui definição
+
+-- Drop table
+
+-- DROP TABLE osnui;
+
+CREATE TABLE osnui (
+	OSDAT Date,
+	OSHOR String(32767),
+	OSNUM String(32767),
+	OSNUI String(32767),
+	OSSTA String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSQUC Double,
+	OSUNI String(32767),
+	OSUNC String(32767),
+	OSOBS String(32767),
+	ORIGEM String(32767),
+	OSANT String(32767),
+	OSADT Date,
+	OSAFS String(32767),
+	OS_PO String(32767),
+	TOTIT Double,
+	TOTIC Double,
+	QUAIT Double,
+	JCOD String(32767),
+	IDATA Date,
+	IUSER String(32767)
+);
+
+
+-- osre1 definição
+
+-- Drop table
+
+-- DROP TABLE osre1;
+
+CREATE TABLE osre1 (
+	OSDAT Date,
+	OSHOR String(32767),
+	OSNUM String(32767),
+	OSNUI String(32767),
+	OSSTA String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSQUC Double,
+	OSUNI String(32767),
+	METRI Double,
+	METRR Double,
+	METBO Double,
+	METSU Double,
+	METEN Double,
+	TOTMT Double,
+	REENC Double,
+	REESP Double,
+	PPENC Double,
+	PPESP Double,
+	PCENC Double,
+	PCESP Double,
+	DEF1 Double,
+	DEF2 Double,
+	DEF3 Double,
+	DEF4 Double
+);
+
+
+-- pa definição
+
+-- Drop table
+
+-- DROP TABLE pa;
+
+CREATE TABLE pa (
+	IT_GA String(32767),
+	IT_BA String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	ITDESC String(32767),
+	ITDEC1 String(32767),
+	ITUNE String(32767),
+	CHAVE String(32767),
+	EAN13 String(32767),
+	DIG13 String(32767),
+	GRUPOP Double,
+	BITOLA Double
+);
+
+
+-- parad definição
+
+-- Drop table
+
+-- DROP TABLE parad;
+
+CREATE TABLE parad (
+	PRCOD String(32767),
+	PRDES String(32767),
+	CORES String(32767),
+	CDTIP String(32767),
+	PRTIP String(32767)
+);
+
+
+-- paux1 definição
+
+-- Drop table
+
+-- DROP TABLE paux1;
+
+CREATE TABLE paux1 (
+	MACOD String(32767),
+	OPCOD String(32767),
+	PACOD String(32767),
+	PADES String(32767),
+	PAMIN Double
+);
+
+
+-- paux2 definição
+
+-- Drop table
+
+-- DROP TABLE paux2;
+
+CREATE TABLE paux2 (
+	MACOD String(32767),
+	OPCOD String(32767),
+	PACOD String(32767),
+	PADES String(32767),
+	PAMIN Double
+);
+
+
+-- pcarg definição
+
+-- Drop table
+
+-- DROP TABLE pcarg;
+
+CREATE TABLE pcarg (
+	CACOD String(32767),
+	CADES String(32767)
+);
+
+
+-- pdept definição
+
+-- Drop table
+
+-- DROP TABLE pdept;
+
+CREATE TABLE pdept (
+	DECOD String(32767),
+	DEDES String(32767)
+);
+
+
+-- pferi definição
+
+-- Drop table
+
+-- DROP TABLE pferi;
+
+CREATE TABLE pferi (
+	FDATA Date,
+	FEDES String(32767)
+);
+
+
+-- plamo definição
+
+-- Drop table
+
+-- DROP TABLE plamo;
+
+CREATE TABLE plamo (
+	IT_GR String(32767),
+	IT_BI String(32767),
+	QLOTE Double,
+	QAMOS Double,
+	QREPR Double,
+	PLANO String(32767),
+	PLANN String(32767),
+	OSNUM String(32767)
+);
+
+
+-- proan definição
+
+-- Drop table
+
+-- DROP TABLE proan;
+
+CREATE TABLE proan (
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	ITDESC String(32767),
+	ITDEC1 String(32767),
+	ITUNE String(32767),
+	CHAVE String(32767),
+	EAN13 String(32767),
+	DIG13 String(32767),
+	GRUPOP Double,
+	BITOLA Double
+);
+
+
+-- proda definição
+
+-- Drop table
+
+-- DROP TABLE proda;
+
+CREATE TABLE proda (
+	NAOCT String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PITIP String(32767),
+	ITDESC String(32767),
+	QUANT Double,
+	IT_GR String(32767),
+	IT_BI String(32767),
+	ITUNE String(32767),
+	PCLAS String(32767),
+	CFASE String(32767),
+	CTEPM Double,
+	CTEOP Double,
+	QUAIT Double,
+	PESMP Double,
+	TBDAT Date,
+	TBHOR String(32767),
+	TBNOM String(32767),
+	PROKG Double,
+	CRECO Boolean,
+	QUACO Double,
+	PRECO Double,
+	PRDAT Date,
+	PRHOR String(32767),
+	PRUSE String(32767)
+);
+
+
+-- prodcobr definição
+
+-- Drop table
+
+-- DROP TABLE prodcobr;
+
+CREATE TABLE prodcobr (
+	PI_PX String(32767),
+	PI_CO String(32767),
+	ITDESC String(32767),
+	ITUNE String(32767),
+	PROKG Double
+);
+
+
+-- prodi definição
+
+-- Drop table
+
+-- DROP TABLE prodi;
+
+CREATE TABLE prodi (
+	IT_PX String(32767),
+	IT_CO String(32767),
+	IT_SX String(32767),
+	ITDEC1 String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	ITUNE String(32767),
+	TESTE String(32767),
+	ITDESC String(32767)
+);
+
+
+-- prodr definição
+
+-- Drop table
+
+-- DROP TABLE prodr;
+
+CREATE TABLE prodr (
+	IT_PX String(32767),
+	IT_CO String(32767),
+	ITDESC String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	ITUNE String(32767),
+	PCLAS String(32767),
+	CFASE String(32767),
+	CTEPM Double,
+	CTEOP Double,
+	CHA String(32767)
+);
+
+
+-- prodt definição
+
+-- Drop table
+
+-- DROP TABLE prodt;
+
+CREATE TABLE prodt (
+	IT_GR String(32767),
+	IT_BI String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	ITUNE String(32767),
+	PCLAS String(32767),
+	CFASE String(32767),
+	CTEPM Double,
+	CTEOP Double,
+	PDOB1 String(32767),
+	PDOB2 String(32767),
+	PDOB3 String(32767),
+	PDOB4 String(32767),
+	PDOB5 String(32767),
+	TBNOM String(32767),
+	TBDAT Date,
+	PLANO String(32767),
+	QLOTE Double,
+	QREPR Double,
+	QAMOS Double
+);
+
+
+-- produ definição
+
+-- Drop table
+
+-- DROP TABLE produ;
+
+CREATE TABLE produ (
+	NAOCT String(32767),
+	IT_PX String(32767),
+	IT_GA String(32767),
+	IT_BA String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	ITDESC String(32767),
+	ITDEC1 String(32767),
+	ITUNE String(32767),
+	CHAVE String(32767),
+	EAN13 String(32767),
+	DIG13 String(32767),
+	GRUPOP Double,
+	BITOLA Double,
+	BITOR String(32767)
+);
+
+
+-- psind definição
+
+-- Drop table
+
+-- DROP TABLE psind;
+
+CREATE TABLE psind (
+	OSDAT Date,
+	OSHOR String(32767),
+	OSNUM String(32767),
+	OSCHA String(32767),
+	OSNUI String(32767),
+	OSSTA String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSQUA Double,
+	OSQUC Double,
+	OSUNI String(32767),
+	OSUNC String(32767),
+	OSOBS String(32767),
+	ORIGEM String(32767),
+	OSANT String(32767),
+	OSADT Date,
+	OSAFS String(32767),
+	OS_PO String(32767),
+	TOTIT Double,
+	TOTIC Double,
+	QUAIT Double,
+	QUAET Double,
+	JDESC String(32767),
+	QUARI Double,
+	QUARR Double,
+	QUABO Double,
+	QUASU Double,
+	QUAEN Double,
+	METRI Double,
+	METRR Double,
+	METBO Double,
+	METSU Double,
+	METEN Double,
+	DAFEC Date,
+	COFEC String(32767),
+	DARIF Date,
+	CORIF String(32767),
+	OBRIF String(32767),
+	DALIQ Date,
+	COLIQ String(32767),
+	OSRIF String(32767),
+	OSRII Boolean,
+	ELINK Boolean,
+	ITDESC String(32767),
+	TPROD Double,
+	TPARA Double,
+	TPROO Double
+);
+
+
+-- ranx7 definição
+
+-- Drop table
+
+-- DROP TABLE ranx7;
+
+CREATE TABLE ranx7 (
+	PX String(32767),
+	CO String(32767),
+	SX String(32767),
+	NCNUM String(32767),
+	OPERA String(32767),
+	NFASE String(32767),
+	OPCOD String(32767),
+	FNOME String(32767),
+	PRDES String(32767),
+	CAU_F String(32767),
+	NCDAT Date
+);
+
+
+-- ranx8 definição
+
+-- Drop table
+
+-- DROP TABLE ranx8;
+
+CREATE TABLE ranx8 (
+	PX String(32767),
+	CO String(32767),
+	SX String(32767),
+	NCNUM String(32767),
+	OPERA String(32767),
+	NFASE String(32767),
+	OPCOD String(32767),
+	FNOME String(32767),
+	PRDES String(32767),
+	CAU_F String(32767),
+	NCDAT Date
+);
+
+
+-- raux1 definição
+
+-- Drop table
+
+-- DROP TABLE raux1;
+
+CREATE TABLE raux1 (
+	BONU1 String(32767),
+	BONUM String(32767),
+	ORDEM Double,
+	BOBMP String(32767),
+	QUAIT Double,
+	QUAUN String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767)
+);
+
+
+-- raux2 definição
+
+-- Drop table
+
+-- DROP TABLE raux2;
+
+CREATE TABLE raux2 (
+	BONU1 String(32767),
+	BONUM String(32767),
+	ORDEM Double,
+	BOBMP String(32767),
+	QUAIT Double,
+	QUAUN String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767)
+);
+
+
+-- raux3 definição
+
+-- Drop table
+
+-- DROP TABLE raux3;
+
+CREATE TABLE raux3 (
+	CHAVE String(32767),
+	OSNUM String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	QUANT Double,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	QUAKG Double,
+	PETOT Double
+);
+
+
+-- raux4 definição
+
+-- Drop table
+
+-- DROP TABLE raux4;
+
+CREATE TABLE raux4 (
+	OSNUM String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	QUANT Double,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	QUAKG Double,
+	PETOT Double
+);
+
+
+-- reeti definição
+
+-- Drop table
+
+-- DROP TABLE reeti;
+
+CREATE TABLE reeti (
+	PAPNO String(32767),
+	C1 String(32767),
+	C2 String(32767),
+	C3 String(32767),
+	C4 String(32767),
+	C5 String(32767),
+	C6 String(32767),
+	C7 String(32767),
+	C8 String(32767),
+	C9 String(32767),
+	C0 String(32767),
+	EMITA Boolean
+);
+
+
+-- repen definição
+
+-- Drop table
+
+-- DROP TABLE repen;
+
+CREATE TABLE repen (
+	REPNO String(32767),
+	REPDA Date,
+	REPHO String(32767),
+	REPQI Double,
+	REPQQ Double,
+	REALM String(32767),
+	RECEM String(32767)
+);
+
+
+-- repit definição
+
+-- Drop table
+
+-- DROP TABLE repit;
+
+CREATE TABLE repit (
+	COBOB String(32767),
+	RACOD String(32767),
+	FANUM String(32767),
+	FACOD String(32767),
+	FITEM String(32767),
+	REPNO String(32767),
+	LISTS String(32767),
+	LISTA String(32767),
+	OSNUM String(32767),
+	OSNUX String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	COQTD String(32767),
+	COACO String(32767),
+	COMUN Double,
+	COMTT Double,
+	COKUN Double,
+	COKTT Double,
+	COPI1 String(32767),
+	COPI2 String(32767),
+	PECOD String(32767),
+	FCOD String(32767),
+	FILIAL String(32767),
+	COCLI String(32767),
+	COICL Boolean,
+	COISQ Boolean,
+	CLNOM String(32767),
+	ETQQU Double,
+	ETQUN String(32767),
+	KGBR Double,
+	KGLI Double,
+	BOBI String(32767),
+	OBSC String(32767),
+	ROMAN String(32767),
+	COMEM Double,
+	CNOME String(32767),
+	CDATA Date,
+	CHORA String(32767),
+	C2 String(32767),
+	BOTIP String(32767)
+);
+
+
+-- repot definição
+
+-- Drop table
+
+-- DROP TABLE repot;
+
+CREATE TABLE repot (
+	ELINK Boolean,
+	RESTA String(32767),
+	REPNO String(32767),
+	REPNI String(32767),
+	RDATA Date,
+	RHORA String(32767),
+	RUSER String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	OSNUM String(32767),
+	OSOBS String(32767),
+	QUAIT Double,
+	TOTIT Double,
+	QUAEN Double,
+	EUSER String(32767),
+	EDATA Date,
+	EHORA String(32767),
+	VISTO Boolean
+);
+
+
+-- romcd definição
+
+-- Drop table
+
+-- DROP TABLE romcd;
+
+CREATE TABLE romcd (
+	SERIE String(32767),
+	ROCOD String(32767),
+	RODAT Date,
+	ROMAT String(32767),
+	RODES String(32767),
+	ROCLI String(32767),
+	RODOC String(32767),
+	RONOR String(32767),
+	ROQRO Double,
+	ROQME Double,
+	ROROM Boolean,
+	ROCQT Boolean,
+	QUAIT Double
+);
+
+
+-- romit definição
+
+-- Drop table
+
+-- DROP TABLE romit;
+
+CREATE TABLE romit (
+	SERIE String(32767),
+	ROCOD String(32767),
+	QROLO Double,
+	QMETR Double,
+	LOTEN String(32767),
+	LOANO String(32767)
+);
+
+
+-- rxaux1 definição
+
+-- Drop table
+
+-- DROP TABLE rxaux1;
+
+CREATE TABLE rxaux1 (
+	OSNUM String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	QPROD Double,
+	PDATA Date,
+	PHINI String(32767),
+	PHFIN String(32767),
+	OPCOD String(32767),
+	QMPRO Double,
+	QMPAR Double,
+	QPARA Double,
+	PHPAI String(32767),
+	PHPAF String(32767),
+	PACOD String(32767),
+	FUSUA String(32767),
+	QUARO Double,
+	QUARR Double,
+	QUABO Double,
+	MAQUI String(32767),
+	METRI Double,
+	METRR Double,
+	METBO Double
+);
+
+
+-- rxaux2 definição
+
+-- Drop table
+
+-- DROP TABLE rxaux2;
+
+CREATE TABLE rxaux2 (
+	OSNUM String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	QPROD Double,
+	PDATA Date,
+	PHINI String(32767),
+	PHFIN String(32767),
+	OPCOD String(32767),
+	QMPRO Double,
+	QMPAR Double,
+	QPARA Double,
+	PHPAI String(32767),
+	PHPAF String(32767),
+	PACOD String(32767),
+	FUSUA String(32767),
+	QUARO Double,
+	QUARR Double,
+	QUABO Double,
+	MAQUI String(32767),
+	METRI Double,
+	METRR Double,
+	METBO Double
+);
+
+
+-- setnum definição
+
+-- Drop table
+
+-- DROP TABLE setnum;
+
+CREATE TABLE setnum (
+	CONTROLE String(32767),
+	LETMP String(32767),
+	NUMMP Double,
+	OSNUM Double,
+	NSERI Double,
+	MECOD Double,
+	REPNO Double,
+	NCNUM Double,
+	BONUM Double,
+	EAN13 Double,
+	OSINO Double,
+	OSCOD Double,
+	LOTEN Double,
+	RESER Double
+);
+
+
+-- sucat definição
+
+-- Drop table
+
+-- DROP TABLE sucat;
+
+CREATE TABLE sucat (
+	CDSUC String(32767),
+	SISUC String(32767),
+	DESUC String(32767)
+);
+
+
+-- tabnum definição
+
+-- Drop table
+
+-- DROP TABLE tabnum;
+
+CREATE TABLE tabnum (
+	CONTROLE String(32767),
+	OSNUM Double,
+	NSERI Double,
+	MECOD Double,
+	REPNO Double,
+	NCNUM Double,
+	BONUM Double,
+	EAN13 Double,
+	OSINO Double,
+	OSCOD Double,
+	LOTEN Double,
+	RESER Double
+);
+
+
+-- tabtb definição
+
+-- Drop table
+
+-- DROP TABLE tabtb;
+
+CREATE TABLE tabtb (
+	TBCOD String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767)
+);
+
+
+-- tbaux definição
+
+-- Drop table
+
+-- DROP TABLE tbaux;
+
+CREATE TABLE tbaux (
+	TBCOD String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	DECIM String(32767),
+	LLOTE String(32767),
+	VALOR Double,
+	VALOQ Double,
+	VALOS Double,
+	TBTEC Boolean,
+	TBENS Boolean,
+	RNUME Boolean,
+	TBNOM String(32767),
+	TBDAT Date,
+	TBHOR String(32767),
+	TESTE String(32767),
+	TCALC Boolean,
+	VALO0 Double,
+	VALO1 Double,
+	VALO2 Double,
+	VALO3 Double,
+	VALO4 Double
+);
+
+
+-- tbgru definição
+
+-- Drop table
+
+-- DROP TABLE tbgru;
+
+CREATE TABLE tbgru (
+	TBDES String(32767),
+	TBCOD String(32767),
+	IT_GR String(32767),
+	DECIM String(32767),
+	VALOR Double,
+	VAPOQ Double,
+	VAPOR Double,
+	TCALC Boolean,
+	TBTEC Boolean,
+	TBENS Boolean,
+	TBDAT Date,
+	TBHOR String(32767),
+	TBNOM String(32767),
+	LLOTE String(32767)
+);
+
+
+-- tblog definição
+
+-- Drop table
+
+-- DROP TABLE tblog;
+
+CREATE TABLE tblog (
+	TBCOD String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	DECIM String(32767),
+	VALOR Double,
+	TBTEC Boolean,
+	TBENS Boolean,
+	RNUME Boolean,
+	TBNOM String(32767),
+	TBDAT Date,
+	TBHOR String(32767),
+	LGNOM String(32767),
+	LGDAT Date,
+	LGHOR String(32767),
+	LGTIP String(32767),
+	TCALC Boolean,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	LLOTE String(32767),
+	VALOS Double
+);
+
+
+-- tbnnc definição
+
+-- Drop table
+
+-- DROP TABLE tbnnc;
+
+CREATE TABLE tbnnc (
+	TBCOD String(32767),
+	NCCOD String(32767),
+	CFASE String(32767)
+);
+
+
+-- tbpr0 definição
+
+-- Drop table
+
+-- DROP TABLE tbpr0;
+
+CREATE TABLE tbpr0 (
+	TBCOD String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	DECIM String(32767),
+	VALOQ Double,
+	VALOR Double,
+	VALOS Double,
+	LLOTE String(32767),
+	TBTEC Boolean,
+	TBENS Boolean,
+	RNUME Boolean,
+	TBNOM String(32767),
+	TBDAT Date,
+	TBHOR String(32767),
+	TESTE String(32767),
+	TCALC Boolean
+);
+
+
+-- tbpra definição
+
+-- Drop table
+
+-- DROP TABLE tbpra;
+
+CREATE TABLE tbpra (
+	TBCOD String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	DECIM String(32767),
+	VALOQ Double,
+	VALOR Double,
+	VALOS Double,
+	LLOTE String(32767),
+	TBTEC Boolean,
+	TBENS Boolean,
+	RNUME Boolean,
+	TBNOM String(32767),
+	TBDAT Date,
+	TBHOR String(32767),
+	TESTE String(32767),
+	TCALC Boolean
+);
+
+
+-- tbprb definição
+
+-- Drop table
+
+-- DROP TABLE tbprb;
+
+CREATE TABLE tbprb (
+	TPESO Boolean,
+	TBCOD String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	DECIM String(32767),
+	VALOQ Double,
+	VALOR Double,
+	VALOS Double,
+	LLOTE String(32767),
+	TBTEC Boolean,
+	TBENS Boolean,
+	RNUME Boolean,
+	TBNOM String(32767),
+	TBDAT Date,
+	TBHOR String(32767),
+	TESTE String(32767),
+	TCALC Boolean,
+	NOVO Boolean,
+	PESOR Double
+);
+
+
+-- tbpro definição
+
+-- Drop table
+
+-- DROP TABLE tbpro;
+
+CREATE TABLE tbpro (
+	TFREC Double,
+	TPESO Boolean,
+	TBCOD String(32767),
+	IT_GA String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	DECIM String(32767),
+	VALOQ Double,
+	VALOR Double,
+	VALOS Double,
+	LLOTE String(32767),
+	TBTEC Boolean,
+	TBENS Boolean,
+	RNUME Boolean,
+	TBNOM String(32767),
+	TBDAT Date,
+	TBHOR String(32767),
+	TESTE String(32767),
+	TCALC Boolean,
+	NOVO Boolean,
+	PESOR Double,
+	PI_PX String(32767),
+	PI_CO String(32767)
+);
+
+
+-- tbtit definição
+
+-- Drop table
+
+-- DROP TABLE tbtit;
+
+CREATE TABLE tbtit (
+	TBCOD String(32767),
+	TBCOR Boolean,
+	TBDES String(32767),
+	TBUNI String(32767),
+	TBUN2 String(32767),
+	TBCON String(32767),
+	TBTEC Boolean,
+	TBENS Boolean,
+	RNUME Boolean,
+	INSTR String(32767),
+	TIRIF String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767)
+);
+
+
+-- temp definição
+
+-- Drop table
+
+-- DROP TABLE temp;
+
+CREATE TABLE temp (
+	IT_PX String(32767),
+	IT_GA String(32767),
+	IT_BA String(32767),
+	IT_GR String(32767),
+	IT_BI String(32767),
+	IT_CR String(32767),
+	ITDESC String(32767),
+	ITDEC1 String(32767),
+	ITUNE String(32767),
+	CHAVE String(32767),
+	EAN13 String(32767),
+	DIG13 String(32767),
+	GRUPOP Double,
+	BITOLA Double
+);
+
+
+-- tes definição
+
+-- Drop table
+
+-- DROP TABLE tes;
+
+CREATE TABLE tes (
+	TESTE String(32767),
+	STABO String(32767),
+	CAGAD Boolean,
+	SPARK Boolean,
+	OSDAT Date,
+	OSCOD String(32767),
+	BONUM String(32767),
+	BOBNO String(32767),
+	TIPMP String(32767),
+	BOBMP String(32767),
+	OSINO String(32767),
+	OSSTA String(32767),
+	ELINK Boolean,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	BOQUA Double,
+	BOUNI String(32767),
+	BOBKG Double,
+	MACOD String(32767),
+	DATAI Date,
+	HORAI String(32767),
+	DATAF Date,
+	HORAF String(32767),
+	CORIF String(32767),
+	DARIF Date,
+	HORIF String(32767),
+	QUAUS Double,
+	QUAPR Double,
+	INICI Double,
+	"FINAL" Double,
+	MINIT String(32767),
+	OPCOD String(32767),
+	LBNNC String(32767),
+	TLANC Boolean,
+	TREPR Boolean,
+	RESUG String(32767),
+	OSIOK Boolean,
+	RETRA Boolean
+);
+
+
+-- tibob definição
+
+-- Drop table
+
+-- DROP TABLE tibob;
+
+CREATE TABLE tibob (
+	BOTIP String(32767),
+	BNOME String(32767),
+	BNOMR String(32767)
+);
+
+
+-- tipop definição
+
+-- Drop table
+
+-- DROP TABLE tipop;
+
+CREATE TABLE tipop (
+	CDTIP String(32767),
+	CCLAS String(32767),
+	CCCOR String(32767),
+	RGBCR String(32767)
+);
+
+
+-- trimp definição
+
+-- Drop table
+
+-- DROP TABLE trimp;
+
+CREATE TABLE trimp (
+	TEOSI Boolean,
+	TBCOD String(32767),
+	PI_PX String(32767),
+	PI_CO String(32767),
+	DECIM String(32767),
+	VALOR Double,
+	VALOS Double,
+	TBTEC Boolean,
+	TBENS Boolean,
+	RNUME Boolean,
+	TBNOM String(32767),
+	TBDAT Date,
+	TBHOR String(32767),
+	TESTE String(32767),
+	TCALC Boolean,
+	LLOTE String(32767)
+);
+
+
+-- ttte definição
+
+-- Drop table
+
+-- DROP TABLE ttte;
+
+CREATE TABLE ttte (
+	TESTE String(32767),
+	STABO String(32767),
+	CAGAD Boolean,
+	SPARK Boolean,
+	OSDAT Date,
+	OSCOD String(32767),
+	BONUM String(32767),
+	BOBNO String(32767),
+	TIPMP String(32767),
+	BOBMP String(32767),
+	OSINO String(32767),
+	OSSTA String(32767),
+	ELINK Boolean,
+	PI_PX String(32767),
+	PI_CO String(32767),
+	PI_SX String(32767),
+	BOQUA Double,
+	BOUNI String(32767),
+	BOBKG Double,
+	MACOD String(32767),
+	DATAI Date,
+	HORAI String(32767),
+	DATAF Date,
+	HORAF String(32767),
+	CORIF String(32767),
+	DARIF Date,
+	HORIF String(32767),
+	QUAUS Double,
+	QUAPR Double,
+	INICI Double,
+	"FINAL" Double,
+	MINIT String(32767),
+	OPCOD String(32767),
+	LBNNC String(32767),
+	TLANC Boolean,
+	TREPR Boolean,
+	RESUG String(32767),
+	OSIOK Boolean,
+	RETRA Boolean
+);
+
+
+-- turno definição
+
+-- Drop table
+
+-- DROP TABLE turno;
+
+CREATE TABLE turno (
+	TURNO String(32767),
+	TFILI String(32767),
+	TENTR String(32767),
+	TSAID String(32767),
+	TNOME String(32767)
+);
+
+
+-- vlmpr definição
+
+-- Drop table
+
+-- DROP TABLE vlmpr;
+
+CREATE TABLE vlmpr (
+	PI_PX String(32767),
+	PI_CO String(32767),
+	ANOME String(32767),
+	PRECO Double
+);
+
+
+-- yaux3 definição
+
+-- Drop table
+
+-- DROP TABLE yaux3;
+
+CREATE TABLE yaux3 (
+	TVRP Double,
+	TKRP Double,
+	TVRR Double,
+	TKRR Double,
+	RCOD String(32767),
+	RNOMR String(32767)
+);
